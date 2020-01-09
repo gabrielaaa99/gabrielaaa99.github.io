@@ -23,7 +23,7 @@ header {
     background-color:  rgb(80, 14, 14);
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    height: 90px;
     line-height: 30px;
 
 }
@@ -39,6 +39,7 @@ h1 {
     font-size: 40px;
     text-align: center;
     padding-bottom: 5px;
+    padding-left: 15px;
 }
 
 h2 {
