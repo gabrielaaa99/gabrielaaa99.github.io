@@ -16,7 +16,6 @@ header, footer {
     max-width: 760px;
     padding: 10px;
     border-radius: 10px;
-    line-height: 30px;
 
 }
 
@@ -24,7 +23,8 @@ header {
     background-color:  rgb(80, 14, 14);
     display: flex;
     justify-content: space-between;
-    height: 50px;
+    height: 70px;
+    line-height: 30px;
 
 }
 
