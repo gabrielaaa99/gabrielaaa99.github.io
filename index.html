@@ -24,15 +24,22 @@
             <section>
                 <h2>Article</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fuga eaque mollitia repudiandae vel vitae sapiente veniam. A sunt necessitatibus voluptatum dicta facilis! Ex, alias. Maxime reprehenderit officiis quaerat, sunt velit hic aperiam quam beatae, aspernatur sed magnam deserunt exercitationem perspiciatis debitis necessitatibus repellendus eius voluptatibus voluptas distinctio suscipit assumenda repudiandae ex dolorem temporibus? Aut quasi harum quo impedit esse iure reprehenderit hic, fuga sit voluptatum, doloribus assumenda ipsa inventore laborum possimus optio dicta. 
-                    <img src="images/bikelake.jpg" alt="Mountain Biking in the Mountains">Quod earum deleniti consequuntur, non inventore dolorum magni nesciunt beatae ab aut, reiciendis ipsam. Recusandae veniam aperiam dolores delectus assumenda? Delectus <a href="http://www.ibm.com">magnam</a> facilis dolorum impedit, totam animi tenetur repudiandae repellendus ullam sed sapiente, natus fuga <a href="products/">products</a> ab debitis officia voluptas modi ex aspernatur facere dolor. Omnis expedita vitae ducimus? Reprehenderit omnis, quam fugit voluptatem inventore corporis porro, laborum expedita amet hic architecto explicabo aspernatur suscipit necessitatibus quod nobis! Totam molestias harum, natus nobis accusantium nulla eligendi quidem doloribus sit? Nobis doloribus hic, consectetur blanditiis dicta non rerum asperiores molestias maxime iure magni veniam dignissimos ratione quisquam quaerat dolorem vitae illum ad qui perspiciatis odit nisi? Rerum dolor tempore odit, nesciunt, provident nam excepturi nisi libero ipsam, earum neque laudantium ex vitae reiciendis repellat. Necessitatibus suscipit quos nemo est, quod dicta corporis eveniet, beatae officia, eligendi amet. Harum incidunt voluptatem pariatur odit, quo nihil eveniet iste facilis id porro? Mollitia vitae maxime neque voluptatum eveniet ipsa sed repellat hic. Odit molestiae repudiandae cupiditate doloribus distinctio blanditiis, reprehenderit ducimus eaque iste optio minima molestias minus sit ipsa dolores eveniet vero!</p>
+                    <img src="images/bikelake.jpg" alt="Mountain Biking in the Mountains" width=500px>Quod earum deleniti consequuntur, non inventore dolorum magni nesciunt beatae ab aut, reiciendis ipsam. Recusandae veniam aperiam dolores delectus assumenda? Delectus <a href="http://www.ibm.com">magnam</a> facilis dolorum impedit, totam animi tenetur repudiandae repellendus ullam sed sapiente, natus fuga <a href="products/">products</a> ab debitis officia voluptas modi ex aspernatur facere dolor. Omnis expedita vitae ducimus? Reprehenderit omnis, quam fugit voluptatem inventore corporis porro, laborum expedita amet hic architecto explicabo aspernatur suscipit necessitatibus quod nobis! Totam molestias harum, natus nobis accusantium nulla eligendi quidem doloribus sit? Nobis doloribus hic, consectetur blanditiis dicta non rerum asperiores molestias maxime iure magni veniam dignissimos ratione quisquam quaerat dolorem vitae illum ad qui perspiciatis odit nisi? Rerum dolor tempore odit, nesciunt, provident nam excepturi nisi libero ipsam, earum neque laudantium ex vitae reiciendis repellat. Necessitatibus suscipit quos nemo est, quod dicta corporis eveniet, beatae officia, eligendi amet. Harum incidunt voluptatem pariatur odit, quo nihil eveniet iste facilis id porro? Mollitia vitae maxime neque voluptatum eveniet ipsa sed repellat hic. Odit molestiae repudiandae cupiditate doloribus distinctio blanditiis, reprehenderit ducimus eaque iste optio minima molestias minus sit ipsa dolores eveniet vero!</p>
             </section>
             <section>
 
             </section>
         </main>
         <footer>
-
+            &copy;2020 | The Mountain Spoke | All rights Reserved | Today's Date: <span id="currentdate"></span> 
         </footer>
+        <script>
+            // toLocaleDateString
+            const options = {weekday:'long', day: 'numeric', month: 'long', year: 'numeric'};
+            document.getElementById('currentdate').textContent = new Date().toLocaleDayString('en-US', options);
+            
+        </script>
+
     
     </body>
 
