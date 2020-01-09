@@ -5,9 +5,14 @@ body {
     color: black;
 }
 
+main {
+    margin: auto;
+    max-width: 760px;
+}
+
 header, footer {
     background-color: rgb(219, 217, 92);
-    margin: 1.25rem auto;
+    margin: auto;
     max-width: 760px;
     padding: 10px;
     border-radius: 10px;
@@ -17,7 +22,8 @@ header {
     background-color: rgb(219, 217, 92);
     color: rgb(0, 0, 0);
     display: flex;
-    padding-left: 2rem;
+    justify-content: space-between;
+
 
 }
 
@@ -34,6 +40,11 @@ h1 {
 
 h2 {
     font-size: 30px;
+    }
+
+    ul, li {
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     footer {
