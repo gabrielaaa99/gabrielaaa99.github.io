@@ -1,2 +1,2 @@
-const date = document.lastModified; 
-document.getElementById('lastupdate').textContent = date;
+let modified = document.lastModified; 
+document.getElementById("lastupdate").textContent = date;
