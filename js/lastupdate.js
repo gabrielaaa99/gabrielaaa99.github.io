@@ -1,2 +1,2 @@
-let modified = document.lastModified; 
-document.getElementById("lastUpdate").textContent = date;
+var x = document.lastModified; 
+document.getElementById("lastUpdate").innerHTML = XMLHttpRequestUpload;
