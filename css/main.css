@@ -5,14 +5,16 @@ body {
     color: black;
 }
 
-header, main, footer {
+header, footer {
+    background-color: rgb(219, 217, 92);
     margin: 1.25rem auto;
     max-width: 760px;
-    padding: 0.5rem;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 header {
-    background-color: rgb(219, 217, 92) ;
+    background-color: rgb(219, 217, 92);
     color: rgb(0, 0, 0);
     display: flex;
     padding-left: 2rem;
