@@ -31,16 +31,9 @@
             </section>
         </main>
         <footer>
-            &copy;2020 | The Mountain Spoke | All rights Reserved | Today's Date: <span id="currentdate"></span> 
+            &copy;2020 | The Mountain Spoke | All rights Reserved | Today's Date: <span id='currentdate'></span> 
         </footer>
-        <script>
-            // toLocaleDateString
-            const options = {weekday:'long', day: 'numeric', month: 'long', year: 'numeric'};
-            document.getElementById('currentdate').textContent = new Date().toLocaleDayString('en-US', options);
-            
-        </script>
-
-    
+        <script src="js/currentdate.js"></script>
     </body>
 
 </html>
