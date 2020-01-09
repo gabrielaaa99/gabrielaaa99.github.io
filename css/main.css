@@ -1,33 +1,40 @@
 body {
     font-size: 18px;
-    line.height: 1.5;
+    line-height: 30px;
+    font-family: Oxygen;
+    color: black;
 }
 
-header, nav, main, footer {
+header, main, footer {
     margin: 1.25rem auto;
     max-width: 760px;
+    padding: 0.5rem;
 }
 
 header {
-    background-color: navy;
-    color: #fff;
+    background-color: rgb(219, 217, 92) ;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 1.5rem;
 }
 
-p img {
+header img {
     float: right;
-    margin: 10px;
-    border: 3px dotted #000;
-    padding: 1rem;
+    height: 200px
 }
 
-footer {
-    background-color: navy;
-    color: #fff;
-    text-align: center;
+h1 {
+    color: black;
+    font-family: Oxygen;
+    font-family: 40px;
 }
 
-header {
-    padding: 1.5rem;
-}
+h2 {
+    font-size: 30px;
+    }
+
+    footer {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 3px;
+    }
