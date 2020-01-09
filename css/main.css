@@ -14,8 +14,9 @@ header, main, footer {
 header {
     background-color: rgb(219, 217, 92) ;
     color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 1.5rem;
+    display: flex;
+    padding-left: 2rem;
+
 }
 
 header img {
@@ -37,4 +38,6 @@ h2 {
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
         padding: 3px;
+        background-color:  rgb(219, 217, 92);
+       
     }
