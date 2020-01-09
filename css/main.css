@@ -17,13 +17,14 @@ header, footer {
     padding: 10px;
     border-radius: 10px;
     line-height: 30px;
+
 }
 
 header {
     background-color:  rgb(80, 14, 14);
     display: flex;
     justify-content: space-between;
-    height: 40px;
+    height: 50px;
 
 }
 
@@ -35,7 +36,8 @@ img {
 h1 {
     color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 45px;
+    font-size: 40px;
+    text-align: center;
 }
 
 h2 {
