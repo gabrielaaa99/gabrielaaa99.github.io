@@ -1,0 +1,25 @@
+body {
+    font-size: 18px;
+    line.height: 1.5;
+}
+
+header {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+p img {
+    
+    margin: 100px;
+    border: 150px transparent;
+    padding: 100px;
+}
+
+header {
+    padding: 1.5rem;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(97, 6, 21);
+    font-size: 100px;
+}
