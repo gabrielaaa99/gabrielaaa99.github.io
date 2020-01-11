@@ -30,7 +30,7 @@ header {
 
 img {
     float: right;
-    height: 150%;
+    height: 200%;
 }
 
 h1 {
@@ -64,7 +64,8 @@ h2 {
     }
 
     a {
-        color: black;
+        color: rgb(80, 14, 14);
+        
     }
     .website {
         color: chartreuse;
