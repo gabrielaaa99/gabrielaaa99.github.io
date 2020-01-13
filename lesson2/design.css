@@ -6,6 +6,6 @@ padding: 1rem;
 text-align: center;
 }
 
-h1, h3, p {
+.bottom, h1, h3 {
     color: white;
 }
