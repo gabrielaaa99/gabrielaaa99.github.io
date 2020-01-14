@@ -9,3 +9,12 @@ text-align: center;
 .bottom, h1, h3 {
     color: white;
 }
+
+.container3 {
+    background-color: darksalmon;
+    grid-template-columns: auto;
+}
+
+img {
+    width: 35%;
+}
