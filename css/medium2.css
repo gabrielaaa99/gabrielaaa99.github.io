@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 32.5rem) {
     h1 {
         font-size: 2.5em;
     }
@@ -9,7 +9,10 @@
         border-radius: 10px;
     }
     
-    main {
-        grid-gap: 15rem;
+    .grid {
+        grid-template-areas: 
+        "item1"
+        "item2"
+        "item3";
     }
 }
