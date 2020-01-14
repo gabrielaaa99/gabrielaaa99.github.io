@@ -9,4 +9,7 @@
         border-radius: 10px;
     }
     
+    main {
+        grid-gap: 15rem;
+    }
 }
