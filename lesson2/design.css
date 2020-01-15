@@ -6,11 +6,21 @@ padding: 1rem;
 text-align: center;
 }
 
+footer {
+  font-family: 'Sanchez', serif;
+}
+
 .bottom, h1, h3 {
     color: white;
 }
 
+.heading {
+  font-family: 'Bebas Neue', cursive; 
+}
 
+.gabriela {
+  font-family: 'Sanchez', serif;
+}
 
 .container {
     display: grid;
@@ -20,6 +30,7 @@ text-align: center;
     text-align: center;
     padding: 0.75rem;
     grid-gap: 10px 10px;
+    font-family: 'Sanchez', serif;
 
 }
 
