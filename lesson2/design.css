@@ -43,14 +43,18 @@ footer {
 
 
 #img {
-    
     grid-area: auto;
     display: block;
     object-fit: cover;
     width: 100%;
-
 }
 
+a {
+  color: rgb(20, 26, 31);
+  text-align: left;
+  font-size: 1em;
+
+}
 
 @media only screen and (min-width: 60em) {
   main {
