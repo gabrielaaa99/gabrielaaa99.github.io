@@ -51,23 +51,11 @@ footer {
   padding: 0.5em;
 }
 
-#img1 {
+#img {
     grid-area: auto;
     display: block;
     object-fit: cover;
     width: 100%;
-}
-#img2 {
-  grid-area: auto;
-  display: block;
-  object-fit: cover;
-  width: 100%;
-}
-#img3 {
-  grid-area: auto;
-  display: block;
-  object-fit: cover;
-  width: 100%;
 }
 
 a {
