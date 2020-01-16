@@ -10,6 +10,6 @@
     }
     img {
         float: right;
-        box-shadow: rgba(134, 133, 133, 0.795);
+        box-shadow: lightslategray;
     }
 }
