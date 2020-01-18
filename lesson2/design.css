@@ -63,6 +63,7 @@ a {
   text-align: left;
   font-size: 1em;
 }
+
 /*large view*/
 
 @media only screen and (min-width: 60em) {
