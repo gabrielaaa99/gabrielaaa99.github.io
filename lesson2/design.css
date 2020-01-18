@@ -64,26 +64,3 @@ a {
   font-size: 1em;
 
 }
-
-@media only screen and (min-width: 60em) {
-  main {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-
-@media only screen and (min-width: 37.5em) {
-  main {
-    grid-template-columns: 1fr 1fr;
-  }
-
-}
-
-
-@media only screen and (min-width: 23.5em) {
-  main {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-  }
-}
