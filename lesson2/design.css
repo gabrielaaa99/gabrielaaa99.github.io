@@ -62,5 +62,30 @@ a {
   color: rgb(60, 8, 109);
   text-align: left;
   font-size: 1em;
+}
+/*large view*/
 
+@media only screen and (min-width: 60em) {
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/*medium view*/
+
+@media only screen and (min-width: 37.5em) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+/*small view*/
+
+@media only screen and (min-width: 23.5em) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
 }
