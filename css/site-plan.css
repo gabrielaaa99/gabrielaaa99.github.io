@@ -41,7 +41,7 @@ header>h1 {
 
 p {
     font-family: var(--paragraph-font);
-    color: ;
+    color: black;
     padding: 1em
 }
 
@@ -78,7 +78,7 @@ p {
 }
 
 nav {
-    background-color: ;
+    background-color: rgba(179, 182, 185, 0.815);
     line-height: 3em;
     text-align: center;
     font-size: 1.2em
@@ -91,14 +91,15 @@ nav>ul {
 
 nav a {
     padding: 1em;
-    min-width: 70px
+    min-width: 70px;
+    color: var(--secondary-color);
 }
 
 nav a:link, nav a:visited {
-    color:
+    color: 
 }
 
 nav a:hover {
-    color: ;
+    color: blue ;
     background-color:
 }
