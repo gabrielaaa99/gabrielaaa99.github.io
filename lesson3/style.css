@@ -1,0 +1,58 @@
+body {
+    margin: auto;
+    padding: 1.5em;
+    font-size: 16px;
+    line-height: 1.5em;
+    max-width: 960px;
+}
+header, footer {
+    background-color: crimson;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav a:hover {
+    background-color: palevioletred; 
+    padding: 0.5em;   
+}
+
+.header img {
+    width: 25%;
+}
+
+.header {
+    padding: 1.5em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header h1 {
+    line-height: 25%;
+    
+}
+nav {
+    background-color: crimson;
+}
+
+.content {
+    background-color: cornsilk;
+    padding: 1.5em;
+    margin: auto;
+
+
+
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
