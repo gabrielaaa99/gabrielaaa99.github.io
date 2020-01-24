@@ -3,56 +3,56 @@ body {
     padding: 1.5em;
     font-size: 16px;
     line-height: 1.5em;
-    max-width: 960px;
+    max-width: 600px;
 }
 header, footer {
-    background-color: crimson;
+    background-color: transparent;
+    border-color: indianred;
+    border-style: solid;
+    border-radius: 1em;
+    padding: 1.5em;
+
+    text-align: center;
 }
 
 a {
     text-decoration: none;
-    color: white;
-    
-    display: flex;
-    flex-direction: row;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    color: black;
 }
 
 nav a:hover {
-    background-color: palevioletred; 
-    padding: 0.5em;   
-}
-
-.header img {
-    width: 25%;
+    background-color: palevioletred;    
 }
 
 .header {
-    padding: 1.5em;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    
 }
 
 .header h1 {
-    line-height: 25%;
-    
+    text-align: center;
 }
 nav {
-    background-color: crimson;
+        
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    font-size: 16px;
+    padding: 15px 5px;
+    white-space: nowrap;
 }
 
 .content {
-    background-color: cornsilk;
+    background-color: white;
     padding: 1.5em;
     margin: auto;
-
-
 
     display: flex;
     flex-flow: wrap;
     justify-content: center;
 }
+
