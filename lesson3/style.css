@@ -26,6 +26,10 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.website {
+    color: blue;
+}
 .website:hover {
     color: crimson;
 }
