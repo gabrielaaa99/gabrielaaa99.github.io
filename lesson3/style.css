@@ -31,7 +31,8 @@ a {
 }
 
 nav a:hover {
-    background-color: palevioletred;    
+    background-color: palevioletred; 
+    border-radius: 3em;   
 }
 
 .header h1 {
