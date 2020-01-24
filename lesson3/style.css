@@ -26,7 +26,7 @@ a {
     text-decoration: none;
     color: black;
 }
-.website {
+.website:hover {
     color: crimson;
 }
 
