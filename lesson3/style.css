@@ -15,8 +15,7 @@ body {
 }
 header, footer {
     background-color: transparent;
-    border-color: indianred;
-    border-style: 1px solid;
+    border: 1.5px solid rgb(199, 20, 59);
     border-radius: 1em;
     padding: 1.5em;
     text-align: center;
@@ -32,7 +31,7 @@ a {
     color: blue;
 }
 .website:hover {
-    color: crimson;
+    color: rgb(199, 20, 59);
 }
 
 nav a:hover {
