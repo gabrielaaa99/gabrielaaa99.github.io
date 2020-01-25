@@ -13,8 +13,10 @@ body {
 .logo {
     max-width: 50%;
 }
+
 header, footer {
-    background-color: transparent;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(199, 20, 59);
     border: 1px solid rgb(199, 20, 59);
     border-radius: 1em;
     padding: 1.5em;
@@ -24,18 +26,18 @@ header, footer {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .website {
-    color: blue;
+    color: rgb(255, 255, 255);
 }
 .website:hover {
-    color: rgb(199, 20, 59);
+    color: rgb(191, 226, 36);
 }
 
 nav a:hover {
-    background-color: palevioletred; 
+    background-color: rgb(255, 36, 83); 
     border-radius: 3em;   
 }
 
@@ -47,8 +49,11 @@ nav a:hover {
     padding: 1.5em;
     text-align: justify;
 	margin-bottom: 20px;
-	padding-bottom:20px;
-    border-bottom:1px solid #000;
+    padding-bottom:20px;
+    margin-top: 20px;
+    border:1px solid rgb(235, 215, 215);
+    border-radius: 1em;
+    background-color: rgb(235, 215, 215);
 }
  
 .first:nth-last-child(1){
