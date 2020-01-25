@@ -11,15 +11,16 @@ body {
 }
 
 .logo {
-    max-width: 25%;
+    max-width: 50%;
 }
 header, footer {
     background-color: transparent;
     border-color: indianred;
-    border-style: solid;
+    border-style: 1px solid;
     border-radius: 1em;
     padding: 1.5em;
     text-align: center;
+    box-shadow: 0 2px 15px rgb(167, 113, 127);
 }
 
 a {
@@ -43,20 +44,6 @@ nav a:hover {
     text-align: center;
 }
 
-nav {  
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav a {
-    font-size: 16px;
-    padding: 15px 5px;
-    white-space: nowrap;
-}
-
 .first {
     padding: 1.5em;
     text-align: justify;
@@ -77,16 +64,35 @@ nav a {
     font-family: 'News Cycle', sans-serif;
 }
 
+
+@media only screen and (min-width: 60em) {
+    nav {  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav a {
+    font-size: 16px;
+    padding: 15px 5px;
+
+    display: flex;
+    text-align: center;
+    white-space: nowrap;
+}
+}
+
 @media only screen and (min-width: 37.5em) {
 
-    nav ul {
+    nav a {
         display: inline-block;
     }
 
 }
 
-@media only screen and (min-width: 23.5em) {
-    nav ul {
+@media only screen and (min-width: 320px) {
+    nav a {
         display: block;
         text-align: center;
     }
