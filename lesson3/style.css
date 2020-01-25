@@ -15,7 +15,7 @@ body {
 }
 header, footer {
     background-color: transparent;
-    border: 1.5px solid rgb(199, 20, 59);
+    border: 1px solid rgb(199, 20, 59);
     border-radius: 1em;
     padding: 1.5em;
     text-align: center;
