@@ -12,12 +12,33 @@ header {
     color: #2B303A;
 
     display: flex;
+    flex-direction: row;
     justify-content: center;
     
+}
+
+.heading-1 {
+    font-family: 'Abril Fatface', cursive;
+    color: #2B303A;
 }
 header img {
     max-width: 20%;
 }
+
+section {
+    text-align: center;
+}
+
+nav, ul, li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    padding: 1em;
+}
+
 
 footer {
     background-color: #2B303A;
@@ -44,8 +65,10 @@ main img {
 }
 .heading {
     font-family: 'Abril Fatface', cursive;
+    color: white;
 }
 
 p {
     font-family: 'Raleway', sans-serif;
+    color: white;
 }
