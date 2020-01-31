@@ -1,0 +1,84 @@
+body {
+    margin: auto;
+    font-size: 16px;
+    line-height: 1.5em;
+
+}
+
+header, footer, nav {
+    background-color: blue;
+    padding: 1.5em;
+    text-align: center;
+    box-shadow: 0 2px 15px rgb(167, 113, 127);
+}
+
+nav a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.website {
+    color: rgb(255, 255, 255);
+}
+.website:hover {
+    color: rgb(191, 226, 36);
+}
+
+
+.first {
+    padding: 1.5em;
+    text-align: justify;
+	margin-bottom: 20px;
+    padding-bottom:20px;
+    margin-top: 20px;
+    border:1px solid rgb(235, 215, 215);
+    border-radius: 1em;
+    background-color: rgb(235, 215, 215);
+}
+ 
+.first:nth-last-child(1){
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom:none;
+}
+
+
+@media only screen and (min-width: 60em) {
+    nav {  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav a {
+    font-size: 16px;
+    padding: 15px 5px;
+
+    display: flex;
+    text-align: center;
+    white-space: nowrap;
+}
+}
+
+@media only screen and (min-width: 37.5em) {
+
+    nav a {
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (min-width: 320px) {
+    nav a {
+        display: block;
+        text-align: center;
+    }
+}
