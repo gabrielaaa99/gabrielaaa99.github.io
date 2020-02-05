@@ -13,14 +13,14 @@ body {
 
 header, footer, nav {
     color: rgb(255, 255, 255);
-    background-color: #ff4a1c;
+    background-color: #f77656;
     padding: 1.5em;
     text-align: center;
     box-shadow: 0 2px 15px rgb(167, 145, 113);
 }
 
 nav {
-    background-color:#4b296b;
+    background-color:#8357ac;
     margin-top: .5em;
     
 }
@@ -58,11 +58,11 @@ a {
     color: rgb(255, 255, 255);
 }
 .website:hover {
-    color: #4b296b;
+    color: #8357ac;
 }
 
 nav a:hover {
-    background-color: #643292;    
+    background-color: #8f6ab1;    
 }
 
 .navigation li:first-child {
@@ -79,8 +79,7 @@ nav a:hover {
 }
 
 main {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding: 10em;
 }
 .preston {
     text-align: center;
