@@ -78,8 +78,13 @@ nav a:hover {
     font-family: 'News Cycle';
 }
 
-main, footer {
+main {
     padding: 10em;
+}
+
+footer {
+    max-width: 600px;
+    margin: auto;
 }
 .preston {
     text-align: center;
