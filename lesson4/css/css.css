@@ -78,7 +78,7 @@ nav a:hover {
     font-family: 'News Cycle';
 }
 
-main {
+main, footer {
     padding: 10em;
 }
 .preston {
