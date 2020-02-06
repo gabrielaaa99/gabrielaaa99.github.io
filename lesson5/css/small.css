@@ -102,9 +102,7 @@ footer {
 }
 
 .section-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    display: none;
 }
 
 .section-1 h3 {
@@ -155,52 +153,7 @@ p {
 }
 
 
-@media only screen and (min-width: 60em) {
-    .navigation {  
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
-nav a {
-    font-size: 16px;
-    padding: 15px 5px;
-
-    display: flex;
-    text-align: center;
-    white-space: nowrap;
-}
-
-}
-
-@media only screen and (min-width: 37.5em) {
-
-    nav a {
-        display: inline-block;
-    }
-    .section {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    nav a {
-        display: inline-block;
-    }
-
-    #menu {
-        display: none;
-    }
-
-    .navigation {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .navigation li {
-        display: flex;
-    }
-}
 
 @media only screen and (min-width: 320px) {
     nav a {
