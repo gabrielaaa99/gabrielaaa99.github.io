@@ -24,9 +24,4 @@
     .navigation li {
         display: flex;
     }
-    .section-2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
 }

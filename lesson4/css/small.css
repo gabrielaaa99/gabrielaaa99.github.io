@@ -78,7 +78,7 @@ main {
     max-width: 750px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     margin: auto;
 
 }
@@ -93,11 +93,18 @@ footer {
 }
 
 .section {
+   
     padding: 1em;
 	margin-bottom: 20px;
     margin-top: 20px;
     border:1px solid rgb(235, 215, 215);
     background-color: rgba(204, 207, 204, 0.664);
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .section-1 h3 {
@@ -108,10 +115,6 @@ footer {
     padding: 0.5em;
 }
 
-.section-2 {
-    display: none;
-    margin: auto;
-}
 .section-2 h3 {
     padding: 1em;
     text-align: center;
@@ -143,13 +146,74 @@ footer {
 p {
     font-family: 'News Cycle';
 }
+    
+
+.section-4:nth-last-child(1){
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom:none;
+}
+
+
+@media only screen and (min-width: 60em) {
+    .navigation {  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav a {
+    font-size: 16px;
+    padding: 15px 5px;
+
+    display: flex;
+    text-align: center;
+    white-space: nowrap;
+}
+
+}
+
+@media only screen and (min-width: 37.5em) {
+
+    nav a {
+        display: inline-block;
+    }
+    .section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    nav a {
+        display: inline-block;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .navigation li {
+        display: flex;
+    }
+}
 
 @media only screen and (min-width: 320px) {
     nav a {
         display: block;
         text-align: center;
     }
-   
+   .section {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+   }
 
-   
+   .section-2 {
+       display: none;
+   }
 }
