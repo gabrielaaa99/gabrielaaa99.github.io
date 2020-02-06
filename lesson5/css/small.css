@@ -5,16 +5,15 @@ body {
 
 
 header, footer, nav {
-    color: rgb(255, 255, 255);
-    background-color: #ff7a59;
-    padding: 1.5em;
+    color: rgb(0, 0, 0);
+    background-color: #ff6e4a;
+    padding: .1em;
     text-align: center;
     box-shadow: 0 2px 15px rgb(167, 145, 113);
 }
 
 nav {
     background-color:#8357ac;
-    margin-top: .5em;
 }
 
 nav ul {
@@ -30,7 +29,7 @@ nav ul {
 
 nav li a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 1em;
 }
 .responsive li {
@@ -47,10 +46,10 @@ a {
 }
 
 .website {
-    color: rgb(255, 255, 255);
+    color: rgb(36, 35, 35);
 }
 .website:hover {
-    color: #8357ac;
+    color: #5e3485;
 }
 
 nav a:hover {
@@ -68,6 +67,7 @@ nav :active {
 .heading h1 {
     text-align: center;
     font-family: 'Anton';
+    color: black;
 }
 
 .heading h3 {
@@ -95,9 +95,9 @@ footer {
 .section {
    
     padding: 1em;
-	margin-bottom: 20px;
-    margin-top: 20px;
-    border:1px solid rgb(235, 215, 215);
+	margin-bottom: 2px;
+    margin-top: 2px;
+    border-radius: 0.15em;
     background-color: rgba(204, 207, 204, 0.664);
 }
 
@@ -159,6 +159,10 @@ p {
     nav a {
         display: block;
         text-align: center;
+    }
+    main {
+        margin: auto;
+        padding: 1em;
     }
    .section {
        display: flex;
