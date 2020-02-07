@@ -1,16 +1,14 @@
-let daynames = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
-];
+const today = new Date();
+console.log(today);
 
-let dayName = daynames[d.getDay()];
 
-var day= d.getDay();
-if (day === "Thursday") {
-    alert (It is Friday);
+const dayNumber = today.getDay();
+console.log(dayNumber);
+
+const element = document.getElementById("message");
+
+if (dayNumber == 5) {
+    element.classList.add("show");
+    } else {
+    element.classList.add("hide");
 }

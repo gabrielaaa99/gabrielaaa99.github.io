@@ -6,29 +6,51 @@ body {
 
 header, footer, nav {
     color: rgb(0, 0, 0);
-    background-color: #ff845f;
+    background-color: #ff7a51;
     padding: .1em;
     text-align: center;
     box-shadow: 0 2px 15px rgb(167, 145, 113);
 }
 
-.herodiv {
+div#message {
+    background-color: yellow;
+    padding: 1em;
+    text-align: center;
+    margin: auto;
+    font-family: 'News Cycle';
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+.section1 {
     margin: 10px auto;
     position: relative;
     padding: 0.5em;  
 }
-
 .herodiv img {
-    width: 700px;
-    height: 350px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 100px;
 }
 
 .summary {
     position: absolute;
-    top: 25px;
-    right: 450px;
-    background-color: #eeebee71;
-    padding: 0.5em;
+    float: left;
+    top: 580px;
+    margin-left: 20px;
+    background-color: #ffffff71;
+    padding: 1em;
+    box-shadow: 0 2px 15px rgb(75, 71, 64);
+}
+
+.summary span {
+    color: #5e3485;
 }
 
 h2 {
@@ -118,21 +140,13 @@ footer {
 .section {   
     padding: 1em;
 	margin-bottom: 2px;
-    margin-top: 2px;
+    margin-top: 20px;
     border-radius: 0.15em;
     background-color: rgba(204, 207, 204, 0.664);
 }
 
 .section-2 {
     display: none;
-}
-
-.section-1 h3 {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-family: 'Anton';
-    padding: 0.5em;
 }
 
 .section-2 h3 {
@@ -142,25 +156,42 @@ footer {
 }
 
 .section-3 img {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
+    float: auto;
+    margin: 10px;
+    box-shadow: 0 2px 15px rgb(75, 71, 64);
 }
 
 .section-3 {
     font-family: 'Anton';
 }
-.section-4 p {
-    text-align: right;
-
-}
 
 .section-4 h3 {
     display: flex;
-    align-items: center;
-    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    
     font-family: 'Anton';
     padding: 0.5em;
+}
+
+.section-4 {
+    display: none;
+	justify-content: center;
+	padding: 1em;
+}
+
+.section-4 img {
+    width: 35%;
+    padding: 0.5em;
+    float: left;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: auto;
+    width: 200px;
 }
 
 p {
@@ -191,7 +222,6 @@ p {
        flex-direction: row;
        flex-wrap: wrap;
    }
-
    .section-2 {
        display: none;
    }

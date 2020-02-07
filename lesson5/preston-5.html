@@ -16,6 +16,7 @@
 <body>
 
     <header>
+        <div id="message" class="show"><b>Saturday = Preston Pancakes in the Park! 9:00 a.m. Friday at the city park.</b></div>
         <img src="https://cdn1.iconfinder.com/data/icons/vector-weather/512/sunrise-128.png" alt="Image of logo">
         <div class="heading">
             <h1>The Weather Code</h1>
@@ -37,19 +38,21 @@
     </div>
     <main>
         <h2 class="preston">Preston Idaho</h2>
-     
-            <div class="herodiv">
-                <img src="https://images.unsplash.com/photo-1500784946627-11e8b1dd2a49?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1a5b8b400b124ab6a4e5aa877a6a7114&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb"
-                    alt="Weather Summary">
-                <section class="summary">
-                    <h2>Weather Summary</h2>
-                    <p>Currently: Sunny</p>
-                    <p>Currently: Sunny</p>
-                    <p>Currently: Sunny</p>
-                    <p>Currently: Sunny</p>
-                </section>
+        <section section1>
+        <div class="herodiv">
+            <img src="https://images.unsplash.com/photo-1500784946627-11e8b1dd2a49?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1a5b8b400b124ab6a4e5aa877a6a7114&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb"
+                alt="Weather Summary">
             </div>
-        
+            <div class="summary">
+                <h2>Weather Summary</h2>
+            <p>Current: <span id="current">Sunny</span></p>
+            <p>Temperature: <span id="temperature">76 ºF</span></p>
+            <p>Wind Chill: <span id="windchill">ºF</span></p>
+            <p>Humidity: <span id="humidity">69%</span></p>
+            <p>Wind Speed: <span id="wspeed">5 mph</span></p>
+            </div>
+        </section>
+
 
         <section class="section section-2">
             <div>
@@ -65,20 +68,33 @@
                 <h3>Article</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet accusamus suscipit sit asperiores
                     placeat, tempore neque dignissimos fuga saepe quo doloremque veniam hic vel beatae dolorem. Minima
-                    culpa perferendis est.</p>
+                    culpa perferendis est. Lorem ipsum, dolor sit amet consectetur adipisicing elit. In qui quasi
+                    placeat rerum inventore distinctio? Consectetur explicabo tenetur, adipisci voluptate voluptatibus,
+                    obcaecati dolore esse fugit aliquid saepe maxime? Nostrum, iure! Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Nulla similique perferendis incidunt aliquam culpa hic sint, autem
+                    provident laudantium tempore exercitationem numquam ducimus quas, adipisci nemo qui libero iste
+                    molestias? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi vero veniam qui modi
+                    neque corporis. Cupiditate nisi molestiae itaque repellendus eum voluptates sint, maxime
+                    reprehenderit. Sit impedit cupiditate sequi facilis! Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Sit omnis tenetur labore dolorum quas iure, enim error expedita totam perferendis
+                    commodi fugit assumenda ipsum dicta quisquam eum libero eligendi odio.</p>
+
+                <img src="https://images.unsplash.com/photo-1495377611367-19f78e3b6f59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+                    alt="Placeholder for article image" width="60%">
             </div>
-            <img src="https://images.unsplash.com/photo-1495377611367-19f78e3b6f59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-                alt="Placeholder for article image" width="60%">
 
         </section>
 
         <section class="section section-4">
-            <img src="https://dummyimage.com/150x150/000000/ffffff.jpg&text=Contact+Info+Placeholder"
-                alt="Placeholder for contact info">
+            <img src="https://media.istockphoto.com/vectors/vector-city-map-vector-id826280312" alt="Image of city map">
             <h3>Contact Info</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ex corrupti est soluta quas
-                cupiditate accusamus ratione minus quod aut dolor voluptatibus sunt libero, harum aperiam id vel
-                accusantium dolores.</p>
+            <div class="socialmedia">
+                <a href="https://www.youtube.com/channel/UCyEWNhH-amycZ_KPivCCQ-g?view_as=subscriber"><img
+                        src="https://image.flaticon.com/icons/svg/1077/1077046.svg" alt="youtube icon"></a>
+                <a href="https://www.instagram.com/gabsavila_/"><img
+                        src="https://image.flaticon.com/icons/svg/1077/1077042.svg" alt="instagram icon"></a>
+                <a href="#"><img src="https://image.flaticon.com/icons/svg/1077/1077055.svg" alt="whatsapp icon"></a>
+            </div>
         </section>
     </main>
 
@@ -91,8 +107,7 @@
             <script src="js/toggleMenu.js"></script>
         </footer>
     </div>
-
-
+    <script src="js/fridayAlert.js"></script>
 </body>
 
 </html>
