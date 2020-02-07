@@ -188,7 +188,7 @@ footer {
     font-weight: 600;
 }
 
-.flex div img, table img {
+.flex div img {
 	padding: 5px;
 	width: 50%;
 }
