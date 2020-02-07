@@ -12,6 +12,15 @@ header, footer, nav {
     box-shadow: 0 2px 15px rgb(167, 145, 113);
 }
 
+header h1 {
+    text-shadow: 0 2px 15px #812509;
+    padding: 0.5em;
+}
+header img {
+    float: left;
+    margin: auto;
+}
+
 div#message {
     background-color: yellow;
     padding: 1em;
@@ -42,7 +51,7 @@ div#message {
 .summary {
     position: absolute;
     float: left;
-    top: 580px;
+    top: 500px;
     margin-left: 20px;
     background-color: #ffffff71;
     padding: 1em;
@@ -135,6 +144,7 @@ footer {
 .preston {
     text-align: center;
     font-family: 'Anton';
+    border-bottom: 1px solid rgb(27, 27, 27);
 }
 
 .section {   
