@@ -6,7 +6,7 @@ body {
 
 header, footer, nav {
     color: rgb(0, 0, 0);
-    background-color: #ff7a51;
+    background-color: #f89797c7;
     padding: .1em;
     text-align: center;
     box-shadow: 0 2px 15px rgb(167, 145, 113);
@@ -59,14 +59,14 @@ div#message {
 }
 
 .summary span {
-    color: #5e3485;
+    font-weight: 700;
 }
 
 h2 {
     font-family: 'Anton';
 }
 nav {
-    background-color:#8357ac;
+    background-color:#883333c7;
 }
 
 nav ul {
@@ -82,7 +82,7 @@ nav ul {
 
 nav li a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 1em;
 }
 .responsive li {
@@ -102,11 +102,11 @@ a {
     color: rgb(36, 35, 35);
 }
 .website:hover {
-    color: #5e3485;
+    color: #a0324d;
 }
 
 nav a:hover {
-    background-color: #8f6ab1;    
+    background-color: #9c4343c7;    
 }
 nav a:active {
     text-decoration: underline;
@@ -157,12 +157,47 @@ footer {
 
 .section-2 {
     display: none;
+    background-color: transparent;
 }
 
 .section-2 h3 {
     padding: 1em;
     text-align: center;
     font-family: 'Anton';
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.col {
+	flex: 1 1 100%;
+	background-color: #883333c7;
+	font-size: 13px;
+	text-align: center;
+}
+
+.label {
+	display: block;
+	padding: 5px;
+	font-size: 16px;
+    background-color: #f89797c7;
+    font-family: 'News Cycle';
+    color: white;
+    font-weight: 600;
+}
+
+.flex div img, table img {
+	padding: 5px;
+	width: 50%;
+}
+
+.data {
+	display: block;
+    padding: 0 5px 5px;
+    font-family: 'News Cycle';
+    color: white;
 }
 
 .section-3 img {
