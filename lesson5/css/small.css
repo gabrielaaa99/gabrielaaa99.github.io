@@ -51,7 +51,7 @@ div#message {
 .summary {
     position: absolute;
     float: left;
-    top: 500px;
+    top: 30px;
     margin-left: 20px;
     background-color: #ffffff71;
     padding: 1em;
@@ -166,9 +166,9 @@ footer {
 }
 
 .section-3 img {
-    float: auto;
     margin: 10px;
     box-shadow: 0 2px 15px rgb(75, 71, 64);
+    width: 60%;
 }
 
 .section-3 {
