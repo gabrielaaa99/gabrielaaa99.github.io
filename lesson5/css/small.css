@@ -211,15 +211,14 @@ footer {
 }
 
 .section-4 h3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
     font-family: 'Anton';
     padding: 0.5em;
 }
 
 .section-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 	padding: 1em;
 }
 
@@ -252,6 +251,13 @@ p {
 	border-bottom:none;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+
 
 
 
@@ -275,6 +281,7 @@ p {
 
    .map {
        display: flex;
+       justify-content: center;
    }
 
 }
