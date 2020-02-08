@@ -108,9 +108,9 @@ a {
 nav a:hover {
     background-color: #9c4343c7;    
 }
-nav a:active {
-    text-decoration: underline;
-    color: white;
+.navigation a:active {
+    color: rgb(135, 177, 20);
+    font-weight: 700;
 }
 
 .navigation li:first-child {
