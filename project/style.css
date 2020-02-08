@@ -3,6 +3,7 @@ body {
     max-width: 960px;
     margin: auto;
     padding: 0.5em;
+    font-size: 16px;
 }
 header {
     background-color: white;
@@ -12,7 +13,7 @@ header {
     color: #2B303A;
 
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: center;
     
 }
@@ -21,8 +22,9 @@ header {
     font-family: 'Abril Fatface', cursive;
     color: #2B303A;
 }
-header img {
-    max-width: 20%;
+.heading img {
+    width: 125px;
+    height: auto;
 }
 
 section {
@@ -33,37 +35,49 @@ nav, ul, li {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
 
+    background-color: rgb(27, 65, 95);
+    border-radius: 1.5em;
+    margin-top: 10px;
+}
+    
 a {
     padding: 1em;
+   color: ivory;
+   text-align: justify;
+   text-decoration: none;
+}
+
+nav a:hover {
+    color: yellowgreen;
 }
 
 
 footer {
-    background-color: #2B303A;
+    background-color: rgb(27, 65, 95);
     border-radius: 1.5em;
     padding: 1em;
     box-shadow: 0 2px 15px rgb(29, 20, 20);
     color: white;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    margin: auto;
 }
 
 footer img {
     max-width: 4%;
     padding: 0.5em;
+    margin: auto;
 }
 
 main img {
     padding: 1em;
-
     display: flex;
     justify-content: center;
     margin: auto;
    
 }
-.heading {
+.heading-t {
     font-family: 'Abril Fatface', cursive;
     color: white;
 }
@@ -71,4 +85,27 @@ main img {
 p {
     font-family: 'Raleway', sans-serif;
     color: white;
+}
+
+.banner {
+    width: 920px;
+    height: 300px;
+    margin: auto;
+}
+
+section img {
+    width: 500px;
+    height: 450px;    
+}
+.motto {
+    font-family: 'Raleway', sans-serif;
+    color: #0C7C59;    
+}
+
+.heading {
+    font-family: 'Abril Fatface', cursive;
+    color: #2B303A;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
 }
