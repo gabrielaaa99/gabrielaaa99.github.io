@@ -7,18 +7,19 @@ body {
 header, footer, nav {
     color: rgb(0, 0, 0);
     background-color: #f89797c7;
-    padding: .1em;
+    padding: .5em 2%;
     text-align: center;
     box-shadow: 0 2px 15px rgb(167, 145, 113);
 }
 
-header h1 {
+header.heading h1 {
     text-shadow: 0 2px 15px #812509;
     padding: 0.5em;
+    text-align: center;
 }
-header img {
+header figure.logo {
     float: left;
-    margin: auto;
+    margin: 0 15% 0 0;
 }
 
 div#message {
@@ -202,20 +203,21 @@ footer {
     color: white;
 }
 
-.section-3 img {
-    margin: auto;
+.article-img {
+    margin: 5%;
     box-shadow: 0 2px 15px rgb(75, 71, 64);
-    max-width: 60%;
-    height: auto;
+    width: 70%;
+    float: right;
 }
 
-.section-3 {
+.section-3 h3{
     font-family: 'Anton';
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    text-align: center;
+    text-align: justify;
     margin: auto;
+}
+
+.section-3 img {
+    width: 100%;
 }
 
 .section-4 h3 {
