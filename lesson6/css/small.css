@@ -40,12 +40,25 @@ div#message {
 .section1 {
     margin: 10px auto;
     position: relative;
-    padding: 0.5em;  
+    padding: 0.5em;
+    min-height: 200px;  
 }
 .herodiv img {
     width: 100%;
     height: auto;
     margin: auto;
+}
+main picture.photo {
+    width: 90%;
+    margin: auto;
+}
+
+main picture.photo img {
+    width: 100%;
+}
+
+.section1 img{
+	max-width: 100%;	
 }
 
 .summary {
@@ -111,7 +124,7 @@ a {
 nav a:hover {
     background-color: #9c4343c7;    
 }
-.navigation a:active {
+.navigation a:checked {
     color: rgb(135, 177, 20);
     font-weight: 700;
 }

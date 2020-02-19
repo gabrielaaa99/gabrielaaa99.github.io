@@ -42,16 +42,19 @@
         <h2 class="preston">Preston Idaho</h2>
         <section class="section1">
         <div class="herodiv">
-            <picture>
-                <img src="images/cit230_image_franklinOriginal.jpeg" alt="hero image"
-                srcset="images/cit230_image_franklinOriginal.jpeg">
-            </picture>
+            <picture class="photo">
+                <source srcset="images/cit230_small.jpg" media="(max-width: 491px)">
+                <source srcset="images/cit230_medium.jpg" media="(max-width: 691px)">
+                <source srcset="images/cit230_large.jpg" media="(min-width: 899px)">    
+                <img src="images/cit230_image_franklinOriginal.jpeg" alt="header image for week 06"> 
+           </picture>
+    
             </div>
             <div class="summary">
                 <h2>Weather Summary</h2>
             <p>Current: <span id="current">Sunny</span></p>
-            <p>Temperature: <span id="temperature">76 ºF</span></p>
-            <p>Wind Chill: <span id="windchill">ºF</span></p>
+            <p>Temperature: <span id="temperature">46 ºF</span></p>
+            <p>Wind Chill: <span id="windchill"></span></p>
             <p>Humidity: <span id="humidity">69%</span></p>
             <p>Wind Speed: <span id="wspeed">5 mph</span></p>
             </div>
@@ -141,6 +144,7 @@
             <p>Current Date<br><span id="currentDate"></span></p>
             <script src="js/currentDate.js"></script>
             <script src="js/toggleMenu.js"></script>
+            <script src="js/windchill.js"></script>
         </footer>
     </div>
     <script src="js/fridayAlert.js"></script>
