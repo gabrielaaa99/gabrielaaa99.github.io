@@ -19,7 +19,7 @@ header {
 }
 
 .heading-1 {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Abril Fatface', cursive, bold;
     color: #2B303A;
 }
 .heading img {
