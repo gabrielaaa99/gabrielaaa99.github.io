@@ -19,7 +19,7 @@ header {
 }
 
 .heading-1 {
-    font-family: 'Abril Fatface', cursive, bold;
+    font-family: 'Playfair Display', medium, serif;
     color: #2B303A;
 }
 .heading img {
@@ -60,7 +60,8 @@ footer {
     box-shadow: 0 2px 15px rgb(29, 20, 20);
     color: white;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
     margin: auto;
 }
 
@@ -68,6 +69,7 @@ footer img {
     max-width: 4%;
     padding: 0.5em;
     margin: auto;
+    
 }
 
 main img {
@@ -78,12 +80,12 @@ main img {
    
 }
 .heading-t {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', cursive, serif;
     color: white;
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
@@ -98,12 +100,16 @@ section img {
     height: 450px;    
 }
 .motto {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif, cursive;
+    font-size: 16px;
     color: #0C7C59;    
 }
 
 .heading {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    font-weight: 1200;
+    text-shadow: 0 2px 15px rgb(114, 107, 107);
     color: #2B303A;
     display: flex;
     flex-direction: column;
