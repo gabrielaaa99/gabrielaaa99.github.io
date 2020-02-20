@@ -128,7 +128,7 @@ body {
   /* Activity 4 styles */
   .content4 {
       display: grid;
-      grid-columns: 1fr 1fr;   
+      grid-template-columns: 1fr 1fr;   
   }
   
   .red4 {
