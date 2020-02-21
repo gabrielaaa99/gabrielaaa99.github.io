@@ -32,6 +32,10 @@ div#message {
     font-family: 'News Cycle';
 }
 
+p {
+    font-family: 'News Cycle';
+    font-weight: 600;
+}
 .show {
     display: block;
 }
