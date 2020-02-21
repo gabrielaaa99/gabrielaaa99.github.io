@@ -91,7 +91,6 @@ p {
 .heading {
     font-family: 'Playfair Display', serif;
     font-size: 35px;
-    font-weight: 1200;
     text-shadow: 0 2px 15px rgb(114, 107, 107);
     color: #2B303A;
     display: flex;
