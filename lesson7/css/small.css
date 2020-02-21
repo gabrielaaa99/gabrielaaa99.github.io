@@ -105,6 +105,12 @@ nav a:hover {
     font-family: 'Anton';
     color: black;
 }
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
 
 .heading h3 {
     font-family: 'News Cycle';
@@ -136,7 +142,7 @@ footer {
 }
 
 .gallery {
-    text-align: center;
+    text-align: left;
     width: 100%;
 }
 
