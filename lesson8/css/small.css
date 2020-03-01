@@ -148,6 +148,10 @@ h3 {
     border-bottom: solid 1px;
 }
 
+#ratingvalue {
+	margin: 0 15px;
+}
+
 
 @media only screen and (min-width: 12.5em) {
     nav a {

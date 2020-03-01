@@ -75,7 +75,8 @@
             <br>
             <br>
 
-            Storm severity:<input type="range" list="severity">
+            <label>Storm severity: <input type="range" id="rating" value="5" min="1" max="10" step="1" list="severity" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+				<span id="ratingvalue">5</span></label>
             <datalist id="severity">
                 <option value="0">
                 <option value="10">
@@ -132,6 +133,7 @@
             <script src="js/webfont.js"></script>
         </footer>
     </div>
+    <script src="js/rating.js"></script>
     <script src="js/gallery.js"></script>
     <script src="js/fridayAlert.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
