@@ -4,29 +4,42 @@ body {
     margin: auto;
 }
 
-nav {
+ul {
+	list-style-type: none;
 	margin: 0;
-	background-color: #251B32;
-}
-
-.navigation {
-	list-style: none;
 	padding: 0;
-    margin: 0 auto;
-    justify-content: space-between;
-}
-
-.navigation li:first-child {
+	overflow: hidden;
+	background-color: #333;
+	box-shadow: 0 1px 15px rgb(95, 95, 95);
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
 	display: block;
-}
-
-.navigation a {
-	display: block;
-	color: #bdb5c5;
-	padding: 0.75rem;
-	text-align: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
 	text-decoration: none;
-}
+	justify-content: center;
+  }
+  
+  li a:hover {
+	background-color: #111;
+  }
+  
+  footer {
+	background-color: #333;
+	box-shadow: 0 1px 15px rgb(95, 95, 95);
+  }
+
+  header img {
+	  margin: auto;
+	  display: flex;
+	  justify-content: center;
+  }
 
 @media only screen and (min-width: 70em) {
     
