@@ -45,8 +45,8 @@ p {
 }
 h2 {
     font-family: 'Anton';
-    border-bottom: solid 1px;
 }
+
 nav {
     background-color:#883333c7;
 }
@@ -145,13 +145,49 @@ input, select {
 
 h3 {
     font-family: 'News Cycle';
-    border-bottom: solid 1px;
 }
 
 #ratingvalue {
 	margin: 0 15px;
 }
 
+.town-info {
+    max-width: 960px;
+    margin: auto;
+}
+
+.town-info img {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 1em;
+    align-items: center;
+}
+
+.article img {
+    width: 35%;
+	height: auto;
+	margin: auto;
+}
+
+.town-info section {
+    padding: 2em;
+    margin: 15px;
+    box-shadow: 0 2px 15px rgb(167, 145, 113);
+    background-color: #9c4343c7;
+    display: flex;
+    flex-direction: column;  
+}
+
+.article {
+    max-width: 960px;
+    display: flex;
+	flex-direction: column;
+	border: 1px solid #9c4343c7;
+	padding: 1em;
+	margin: auto;
+	text-align: center;
+}
 
 @media only screen and (min-width: 12.5em) {
     nav a {

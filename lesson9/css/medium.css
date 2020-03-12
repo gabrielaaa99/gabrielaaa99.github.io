@@ -25,4 +25,16 @@
         display: flex;
     }
 
+    div.data {
+        display: flex;
+        flex-direction: column;
+       
+    }  
+    
+    div.data :nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    
+  
+
 }

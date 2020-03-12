@@ -15,4 +15,24 @@ nav a {
     white-space: nowrap;
 }
 
+div.data {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+
+}  
+
+.town-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.data img {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 1em;
+    align-items: center;
+}
+
 }
