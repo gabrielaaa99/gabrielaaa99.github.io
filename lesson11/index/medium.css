@@ -1,0 +1,40 @@
+@media only screen and (min-width: 37.5em) {
+
+    nav a {
+        display: inline-block;
+    }
+    .section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    nav a {
+        display: inline-block;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .navigation li {
+        display: flex;
+    }
+
+    div.data {
+        display: flex;
+        flex-direction: column;
+       
+    }  
+    
+    div.data :nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    
+  
+
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weather Code</title>
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css?family=Anton%7CNews+Cycle&display=swap" rel="stylesheet">
+    <link href="index/normalize.css" rel="stylesheet">
+    <link href="index/small.css" rel="stylesheet">
+    <link href="index/medium.css" rel="stylesheet">
+    <link href="index/large.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div id="message" class="show"><b>Saturday = Preston Pancakes in the Park! 9:00 a.m. Friday at the city
+                park.</b></div>
+
+        <div class="heading">
+            <img src="images/sunrise-128.png" alt="image of logo"
+                srcset="images/logo1.png 1x, logo2.png 2x, logo3.png 3x">
+            <div>
+                <h1>The Weather Code</h1>
+                <h3><i>Your dress code, and the weather.</i></h3>
+            </div>
+        </div>
+    </header>
+    <div>
+        <nav>
+            <ul class="navigation">
+                <li id="menu"><a onclick="toggleMenu()">&#9776; <b>Menu bar</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/index.html"><b>Home</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/preston.html"><b>Preston</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/sodasprings.html"><b>Soda Springs</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/fishhaven.html"><b>Fish Haven</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/stormcenter.html"><b>Storm Center</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/gallery.html"><b>Gallery</b></a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="town-info">
+        <h2>Town Info</h2>
+        <div class="data"></div>
+    </div>
+    <div class="article">
+        <h2>Today's weather story</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit nostrum fugit quos a fugiat. Iste,
+            distinctio maiores atque hic voluptas non sapiente sed quisquam quo, voluptatum obcaecati possimus cum est!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias corporis aliquid quaerat hic vitae
+            laudantium minima autem voluptatem odio rem, alias ea assumenda fugit eveniet! Quae quisquam nobis at est.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae esse eligendi quibusdam corrupti vero
+            aliquid ipsam ab laudantium hic, soluta provident ad et aspernatur veritatis nihil, eos commodi consequuntur
+            eaque!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit nostrum fugit quos a fugiat. Iste,
+            distinctio maiores atque hic voluptas non sapiente sed quisquam quo, voluptatum obcaecati possimus cum est!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias corporis aliquid quaerat hic vitae
+            laudantium minima autem voluptatem odio rem, alias ea assumenda fugit eveniet! Quae quisquam nobis at est.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae esse eligendi quibusdam corrupti vero
+            aliquid ipsam ab laudantium hic, soluta provident ad et aspernatur veritatis nihil, eos commodi consequuntur
+            eaque!
+        </p>
+        <img src="https://images.unsplash.com/photo-1514632595-4944383f2737?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
+            alt="article image">
+    </div>
+    <div>
+        <footer>
+            <p> &copy;2020 | Gabriela Avila | Venezuela | <a href="https://www.byui.edu/online" class="website">BYUI
+                    Online Learning</a></p>
+            <p>Current Date<br><span id="currentDate"></span></p>
+            <script src="js/currentDate.js"></script>
+            <script src="js/toggleMenu.js"></script>
+            <script src="js/windchill.js"></script>
+            <script src="js/webfont.js"></script>
+        </footer>
+    </div>
+    <script src="js/towns.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/fridayAlert.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+
+</html>

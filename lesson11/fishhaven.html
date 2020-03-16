@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weather Code</title>
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css?family=Anton%7CNews+Cycle&display=swap" rel="stylesheet">
+    <link href="soda/normalize.css" rel="stylesheet">
+    <link href="soda/small.css" rel="stylesheet">
+    <link href="soda/medium.css" rel="stylesheet">
+    <link href="soda/large.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div id="message" class="show"><b>Saturday = Preston Pancakes in the Park! 9:00 a.m. Friday at the city park.</b></div>
+        <img src="https://cdn1.iconfinder.com/data/icons/vector-weather/512/sunrise-128.png" alt="Image of logo">
+        <div class="heading">
+            <h1>The Weather Code</h1>
+            <h3><i>Your dress code, and the weather.</i></h3>
+        </div>
+    </header>
+    <div>
+        <nav>
+            <ul class="navigation">
+                <li id="menu"><a onclick="toggleMenu()">&#9776; <b>Menu bar</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/index.html"><b>Home</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/preston.html"><b>Preston</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/sodasprings.html"><b>Soda Springs</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/fishhaven.html"><b>Fish Haven</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/stormcenter.html"><b>Storm Center</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/gallery.html"><b>Gallery</b></a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h2 class="preston">Preston Idaho</h2>
+        <section class="section1">
+        <div class="herodiv">
+            <img src="https://images.unsplash.com/photo-1500784946627-11e8b1dd2a49?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1a5b8b400b124ab6a4e5aa877a6a7114&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb"
+                alt="Weather Summary">
+            </div>
+            <div class="summary">
+                <h2>Weather Summary</h2>
+            <p>Current: <span id="current"></span></p>
+            <p>Temperature: <span id="temperature"></span><b> °F</b></p>
+            <p>Wind Chill: <span id="windchill">ºF</span></p>
+            <p>Humidity: <span id="humidity"></span><b>%</b></p>
+            <p>Wind Speed: <span id="wspeed"></span><b> mph</b></p>
+            </div>
+        </section>
+
+
+        <section class="section section-2">
+            <div>
+                <h3>5 Day Forecast</h3>
+            </div>
+            <div class="flex">
+                <div class="col">
+                    <span id="label1"></span>
+                    <img src="https://image.flaticon.com/icons/svg/979/979585.svg" alt="Monday forecast" id="pic1">
+                    <span id="data1"></span>
+                </div>
+                <div class="col">
+                    <span id="label2"></span>
+                    <img src="https://image.flaticon.com/icons/svg/979/979585.svg" alt="Tuesday forecast" id="pic2">
+                    <span id="data2"></span>
+                </div>
+                <div class="col">
+                    <span id="label3"></span>
+                    <img src="https://image.flaticon.com/icons/svg/979/979585.svg" alt="Wednesday forecast" id="pic3">
+                    <span id="data3"></span>
+                </div>
+                <div class="col">
+                    <span id="label4"></span>
+                    <img src="https://image.flaticon.com/icons/svg/979/979585.svg" alt="Thursday forecast" id="pic4">
+                    <span id="data4"></span>
+                </div>
+                <div class="col">
+                    <span id="label5"></span>
+                    <img src="https://image.flaticon.com/icons/svg/979/979585.svg" alt="Friday forecast" id="pic5">
+                    <span id="data5"></span>
+                </div>
+                </div>
+               </section>
+
+        <section class="section section-3">
+            <div>
+                <h3>Article</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet accusamus suscipit sit asperiores
+                    placeat, tempore neque dignissimos fuga saepe quo doloremque veniam hic vel beatae dolorem. Minima
+                    culpa perferendis est. Lorem ipsum, dolor sit amet consectetur adipisicing elit. In qui quasi
+                    placeat rerum inventore distinctio? Consectetur explicabo tenetur, adipisci voluptate voluptatibus,
+                    obcaecati dolore esse fugit aliquid saepe maxime? Nostrum, iure! Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Nulla similique perferendis incidunt aliquam culpa hic sint, autem
+                    provident laudantium tempore exercitationem numquam ducimus quas, adipisci nemo qui libero iste
+                    molestias? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi vero veniam qui modi
+                    neque corporis. Cupiditate nisi molestiae itaque repellendus eum voluptates sint, maxime
+                    reprehenderit. Sit impedit cupiditate sequi facilis! Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Sit omnis tenetur labore dolorum quas iure, enim error expedita totam perferendis
+                    commodi fugit assumenda ipsum dicta quisquam eum libero eligendi odio.</p>
+
+                <img src="https://images.unsplash.com/photo-1495377611367-19f78e3b6f59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+                    alt="Placeholder for article image">
+            </div>
+
+        </section>
+
+        <section class="section section-4">
+            <div class="map"><img src="https://media.istockphoto.com/vectors/vector-city-map-vector-id826280312" alt="Image of city map">
+            </div>
+            <div class="info">
+                <h3>Contact Info</h3>
+                <p>
+                    <b></b>300 Preston Path<br><br>
+                    Preston, ID 83263<br><br>
+                    <b>&#9993;</b> weathercode@gmail.com
+
+                </p>
+            <div class="socialmedia">
+                <a href="https://www.youtube.com/channel/UCyEWNhH-amycZ_KPivCCQ-g?view_as=subscriber"><img
+                        src="https://image.flaticon.com/icons/svg/1077/1077046.svg" alt="youtube icon"></a>
+                <a href="https://www.instagram.com/gabsavila_/"><img
+                        src="https://image.flaticon.com/icons/svg/1077/1077042.svg" alt="instagram icon"></a>
+                <a href="#"><img src="https://image.flaticon.com/icons/svg/1077/1077055.svg" alt="whatsapp icon"></a>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <div>
+        <footer>
+            <p> &copy;2020 | Gabriela Avila | Venezuela | <a href="https://www.byui.edu/online" class="website">BYUI
+                    Online Learning</a></p>
+            <p>Current Date<br><span id="currentDate"></span></p>
+            <script src="js/currentDate.js"></script>
+            <script src="js/toggleMenu.js"></script>
+        </footer>
+    </div>
+    
+    <script src="js/forecast2.js"></script>
+    <script src="js/fridayAlert.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+
+</html>
