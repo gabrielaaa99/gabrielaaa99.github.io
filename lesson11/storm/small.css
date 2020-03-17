@@ -13,6 +13,9 @@ header, footer, nav {
     text-align: center;
     box-shadow: 0 2px 15px rgb(167, 145, 113);
 }
+nav ul .active {
+    background-color: #f89797c7;
+}
 
 header.heading h1 {
     text-shadow: 0 2px 15px #812509;

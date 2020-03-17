@@ -9,22 +9,20 @@ fetch(wURL)
         currentW.textContent = getWeather;
 
         let temperat = document.querySelector("#temperature");
-        temperat.textContent = jsObject.main.data;
+        temperat.textContent = jsObject.main.temp;
 
-        let humidity = document.querySelector("#humidity");
-        humidity.textContent = jsObject.main.humidity;
+        let hum = document.querySelector("#humidity");
+        hum.textContent = jsObject.main.humidity;
 
         let windSpeed = document.querySelector("#wspeed");
         windSpeed.textContent = jsObject.wind.speed;
 
-        let windChill = document.getElementById('#windchill');
-        let func = 35.74 + (0.6215 * temperature) - (35.75 * (Math.pow(wspeed, 0.16))) + (0.4275 * temperature * (Math.pow(wspeed, 0.16)));
-
-        if (temperature <= 50 && wspeed >= 3) {
-            windChill.textContent = Math.round(func);
+        if (wspeed >= 3 && temperature <= 50) {
+            var windChill = 35.74 + (0.6215 * temperature) - (35.75 * (Math.pow(wspeed, 0.16))) + (0.4275 * temperature * (Math.pow(wspeed, 0.16)));
         } else {
-            windChill.textContent = "N/A";
+            var windChill = "N/A";
         }
+        document.getElementById("windchill").innerHTML = windChill;
     }
 ,);
 

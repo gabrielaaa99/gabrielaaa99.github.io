@@ -7,7 +7,7 @@ body {
 header, footer, nav {
     color: rgb(0, 0, 0);
     background-color: #f89797c7;
-    padding: .1em;
+    padding: 0.1em;
     text-align: center;
     box-shadow: 0 2px 15px rgb(167, 145, 113);
 }
@@ -16,9 +16,13 @@ header h1 {
     text-shadow: 0 2px 15px #812509;
     padding: 0.5em;
 }
-header img {
+header figure.logo {
     float: left;
-    margin: auto;
+    margin: 0 15% 0 0;
+}
+
+nav ul .active {
+    background-color: #f89797c7;
 }
 
 div#message {

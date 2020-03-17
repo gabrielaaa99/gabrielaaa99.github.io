@@ -24,6 +24,10 @@ header figure.logo {
     margin: 0 15% 0 0;
 }
 
+nav ul .active {
+    background-color: #f89797c7;
+}
+
 div#message {
     background-color: yellow;
     padding: 1em;

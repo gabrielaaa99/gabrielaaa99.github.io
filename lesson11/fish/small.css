@@ -3,6 +3,10 @@ body {
     font-size: 16px;
 }
 
+.story {
+    color:  #812509;
+    font-weight: 700;
+}
 
 header, footer, nav {
     color: rgb(0, 0, 0);
@@ -16,9 +20,14 @@ header h1 {
     text-shadow: 0 2px 15px #812509;
     padding: 0.5em;
 }
-header img {
+
+header figure.logo {
     float: left;
-    margin: auto;
+    margin: 0 15% 0 0;
+}
+
+nav ul .active {
+    background-color: #f89797c7;
 }
 
 div#message {
