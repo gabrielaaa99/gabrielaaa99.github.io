@@ -14,6 +14,11 @@ header, footer, nav {
     box-shadow: 0 2px 15px rgb(167, 145, 113);
 }
 
+.story {
+    color:  #812509;
+    font-weight: 700;
+}
+
 header.heading h1 {
     text-shadow: 0 2px 15px #812509;
     padding: 0.5em;
@@ -162,7 +167,7 @@ h3 {
 
 
 div.town-info img {
-    width: 70%;
+    width: 80%;
       
 }
 
@@ -170,7 +175,7 @@ div.town-info section {
     margin: 10px;
     text-align: center;
     padding: .5em;
-    background-color:#883333c7;
+    background-color: rgba(247, 236, 236, 0.438);
     box-shadow: 0 2px 15px rgb(167, 145, 113);
 }
 

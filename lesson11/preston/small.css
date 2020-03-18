@@ -12,6 +12,11 @@ header, footer, nav {
     box-shadow: 0 2px 15px rgb(167, 145, 113);
 }
 
+.story {
+    color:  #812509;
+    font-weight: 700;
+}
+
 header h1 {
     text-shadow: 0 2px 15px #812509;
     padding: 0.5em;
