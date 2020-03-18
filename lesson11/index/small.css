@@ -3,15 +3,21 @@ body {
     font-size: 16px;
 }
 
-main {
-    padding: 1.5em;
+section {
+    max-width: 750px;
+    margin: auto;
 }
+
 header, footer, nav {
     color: rgb(0, 0, 0);
     background-color: #f89797c7;
     padding: .5em 2%;
     text-align: center;
     box-shadow: 0 2px 15px rgb(167, 145, 113);
+}
+
+.section-3 h3 {
+    font-family: 'Anton';
 }
 
 .story {
@@ -44,6 +50,11 @@ div#message {
 p {
     font-family: 'News Cycle';
     font-weight: 600;
+}
+
+.article {
+    font-family: 'News Cycle';
+    font-weight: normal;
 }
 .show {
     display: block;
@@ -183,24 +194,23 @@ h2 {
     margin: 10px;
 }
 
-.article img {
-    width: 35%;
-	height: auto;
-	margin: auto;
+.section {   
+    padding: 1em;
+	margin-bottom: 2px;
+    margin-top: 20px;
+    border-radius: 0.15em;
+    background-color: rgba(204, 207, 204, 0.664);
 }
 
-
-
-.article {
-    max-width: 960px;
-    display: flex;
-	flex-direction: column;
-	border: 1px solid #9c4343c7;
-	padding: 1em;
-	margin: auto;
-	text-align: center;
+.section-3 img {
+    margin: 10px;
+    box-shadow: 0 2px 15px rgb(75, 71, 64);
+    width: 45%;
 }
 
+.section-3 {
+    font-family: 'Anton';
+}
 
 @media only screen and (min-width: 12.5em) {
     nav a {
