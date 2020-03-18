@@ -28,15 +28,15 @@ fetch(requestURL)
             div.appendChild(motto);
 
             let year = document.createElement('p');
-            year.textContent = "Year founded:" + towns[i].yearFounded;
+            year.textContent = "Year founded: " + towns[i].yearFounded;
             div.appendChild(year);
 
             let population = document.createElement('p');
-            population.textContent = "Population:" + towns[i].currentPopulation;
+            population.textContent = "Population: " + towns[i].currentPopulation;
             div.appendChild(population);
 
             let rainfall = document.createElement('p');
-            rainfall.textContent = "Annual rainfall:" + towns[i].averageRainfall;
+            rainfall.textContent = "Annual rainfall: " + towns[i].averageRainfall;
             div.appendChild(rainfall);
 
             let photo = document.createElement('img');

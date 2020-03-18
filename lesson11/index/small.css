@@ -160,12 +160,22 @@ h3 {
     margin: auto;
 }
 
-.town-info img {
-    width: 80%;
-    display: flex;
-    margin: auto;
-    padding: 1em;
-    align-items: center;
+
+div.town-info img {
+    width: 70%;
+      
+}
+
+div.town-info section {
+    margin: 10px;
+    text-align: center;
+    padding: .5em;
+    background-color:#883333c7;
+    box-shadow: 0 2px 15px rgb(167, 145, 113);
+}
+
+h2 {
+    margin: 10px;
 }
 
 .article img {
@@ -174,14 +184,7 @@ h3 {
 	margin: auto;
 }
 
-.town-info section {
-    padding: 2em;
-    margin: 15px;
-    box-shadow: 0 2px 15px rgb(167, 145, 113);
-    background-color: #9c4343c7;
-    display: flex;
-    flex-direction: column;  
-}
+
 
 .article {
     max-width: 960px;
@@ -192,6 +195,7 @@ h3 {
 	margin: auto;
 	text-align: center;
 }
+
 
 @media only screen and (min-width: 12.5em) {
     nav a {
