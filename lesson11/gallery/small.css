@@ -19,9 +19,11 @@ header.heading h1 {
     padding: 0.5em;
     text-align: center;
 }
-header figure.logo {
-    float: left;
-    margin: 0 15% 0 0;
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
 }
 
 nav ul .active {
