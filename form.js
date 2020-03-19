@@ -1,4 +1,3 @@
-<script>
   // get the feedback div element so we can do something with it.
   const feedbackElement = document.getElementById('feedback');
   // get the form element so we can read what was entered in it.
@@ -13,4 +12,3 @@
     // make the feedback element visible.
     feedbackElement.style.display = "block";
   });
-</script>

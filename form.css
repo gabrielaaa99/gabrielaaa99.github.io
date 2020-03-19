@@ -20,9 +20,6 @@ form {
     display: inline-block;
     width: 90px;
     text-align: right;
-
-    font-family: 'News Cycle';
-    font-size: 600;
   }
   
   input, 
@@ -50,11 +47,19 @@ form {
   button {
    margin-left: .5em;
   }
+
   li {
       list-style: none;
       padding: 2px;
   }
 
   #feedback {
-      margin-top: 100px;
+    margin: auto;
+    border-style: 1px solid black;
+    box-shadow: 0px 5px 10px gray;
+    max-width: 550px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    display: none;
   }
