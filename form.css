@@ -55,7 +55,6 @@ form {
 
   #feedback {
     margin: auto;
-    border-style: 1px solid rgb(0, 0, 0);
     box-shadow: 0px 5px 10px gray;
     max-width: 550px;
     padding: 5px;
