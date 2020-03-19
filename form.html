@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>W10 Activity: HTML Forms</title>
+    <link href="form.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <div id="feedback">
+      <form action="form.js" method="post">
+        <ul>
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name">
+            </li>
+            <li>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_mail">
+            </li>
+            <li>
+              <label for="msg">Write a message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </li>
+           </ul>
+           <li class="button">
+            <button type="submit">Send your message</button>
+          </li>
+      </form>
+    </div>
+  </body>
+</html>
