@@ -17,14 +17,20 @@ fetch(wURL)
         let windSpeed = document.querySelector("#wspeed");
         windSpeed.textContent = jsObject.wind.speed;
 
-        if (wspeed >= 3 && temperature <= 50) {
-            var windChill = 35.74 + (0.6215 * temperature) - (35.75 * (Math.pow(wspeed, 0.16))) + (0.4275 * temperature * (Math.pow(wspeed, 0.16)));
-        } else {
-            var windChill = "N/A";
+        let t = parseFloat(document.getElementById('temperature').textContent);
+        let s = parseFloat(document.getElementById('wspeed').textContent);
+        
+        if (t<=50 && s>=3) {
+            windchill = 35.74 + (0.6215 * t) - (35.75 * (Math.pow(s, 0.16))) + (0.425 * t * (Math.pow(s, 0.16)));
+        
+            document.getElementById('windchill').textContent = (windchill);
         }
-        document.getElementById("windchill").innerHTML = windChill;
-    }
-,);
+        
+        else {
+        
+            document.getElementById('windchill').textContent = ("N/A");
+        }
+    });
 
 const fURL = "https://api.openweathermap.org/data/2.5/forecast?id=5585000&APPID=e5471d9c45ee420f0d1bffd165f48ae8&units=imperial";
 
