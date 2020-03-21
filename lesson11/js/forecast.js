@@ -24,7 +24,7 @@ fetch(wURL)
         if (t<=50 && s>=3) {
             windchill = 35.74 + (0.6215 * t) - (35.75 * (Math.pow(s, 0.16))) + (0.425 * t * (Math.pow(s, 0.16)));
         
-            document.getElementById('windchill').textContent = (windchill);
+            document.getElementById('windchill').textContent = (windchill).toFixed(0) + "°F";
         }
         
         else {
