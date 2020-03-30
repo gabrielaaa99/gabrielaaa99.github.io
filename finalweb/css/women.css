@@ -55,9 +55,9 @@ ul {
   }
 
   main {
-      max-width: 960px;
-      margin: auto;
-  }
+    max-width: 960px;
+    margin: auto;
+}
   
   h1 {
       font-family: 'Dancing Script';
@@ -67,16 +67,45 @@ ul {
       font-family: 'Fauna One';
   }
 
-  div.intro {
-      max-width: 650px;
-      background-color: #ffea4f8a;
-      box-shadow: 0 0px 15px rgb(124, 129, 124);
-      padding: 12px;
-      margin-top: 20px;
-  }
+  .herodiv img {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 100px;
+}
 
-  .content {
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
-  }
+.one {
+  margin: 10px auto;
+  position: relative;
+  padding: 0.5em;  
+}
+
+.info {
+    position: absolute;
+    top: 15px;
+    margin-left: 8px;
+    
+    padding: 2px;
+   
+    font-size: 12px;
+    font-weight: 600;
+}
+
+button {
+  background-color: #1c7c54;
+  font-family: 'Fauna One';
+  font-weight: 600;
+  border-radius: 3px;
+  border-color: #1c7c54;
+  cursor: pointer;
+  color: white;
+}
+
+section img:hover {
+  box-shadow: 0px 0px 15px 2px rgb(108, 109, 105);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}

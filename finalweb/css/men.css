@@ -88,7 +88,7 @@ ul {
 }
 
   .herodiv img {
-    width: 50%;
+    width: 70%;
     height: auto;
     margin: auto;
     margin-bottom: 100px;
@@ -96,18 +96,31 @@ ul {
 
 .info {
     position: absolute;
-    float: left;
-    top: 30px;
-    margin-left: 20px;
-    background-color: #ffffff8c;
-    border-radius: 15px;
-    padding: 5px;
-    box-shadow: 0 2px 15px rgb(75, 71, 64);
+    top: 15px;
+    margin-left: 8px;
+    
+    padding: 2px;
+   
     font-size: 12px;
     font-weight: 600;
+}
+
+button {
+  background-color: #1c7c54;
+  font-family: 'Fauna One';
+  font-weight: 600;
+  border-radius: 3px;
+  border-color: #1c7c54;
+  cursor: pointer;
+  color: white;
+}
+
+section img:hover {
+  box-shadow: 0px 0px 15px 2px rgb(108, 109, 105);
 }
 
 main {
     display: flex;
     justify-content: space-between;
 }
+
