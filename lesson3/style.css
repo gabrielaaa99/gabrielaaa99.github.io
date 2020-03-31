@@ -1,0 +1,103 @@
+body {
+    margin: auto;
+    padding: 1.5em;
+    font-size: 16px;
+    line-height: 1.5em;
+    max-width: 960px; 
+}
+
+.palette {
+    max-width: 100%;
+}
+
+.logo {
+    max-width: 50%;
+}
+
+header, footer {
+    color: rgb(255, 255, 255);
+    background-color:  rgb(199, 20, 59);
+    border: 1px solid rgb(199, 20, 59);
+    border-radius: 1em;
+    padding: 1.5em;
+    text-align: center;
+    box-shadow: 0 2px 15px rgb(167, 113, 127);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.website {
+    color: rgb(255, 255, 255);
+}
+.website:hover {
+    color: rgb(191, 226, 36);
+}
+
+nav a:hover {
+    background-color: rgb(255, 36, 83); 
+    border-radius: 3em;   
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.first {
+    padding: 1.5em;
+    text-align: justify;
+	margin-bottom: 20px;
+    padding-bottom:20px;
+    margin-top: 20px;
+    border:1px solid rgb(235, 215, 215);
+    border-radius: 1em;
+    background-color: rgb(235, 215, 215);
+}
+ 
+.first:nth-last-child(1){
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom:none;
+}
+.h-example {
+    font-family: 'Anton', sans-serif;
+}
+.p-example {
+    font-family: 'News Cycle', sans-serif;
+}
+
+
+@media only screen and (min-width: 60em) {
+    nav {  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav a {
+    font-size: 16px;
+    padding: 15px 5px;
+
+    display: flex;
+    text-align: center;
+    white-space: nowrap;
+}
+}
+
+@media only screen and (min-width: 37.5em) {
+
+    nav a {
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (min-width: 320px) {
+    nav a {
+        display: block;
+        text-align: center;
+    }
+}

@@ -1,0 +1,94 @@
+body {
+    margin: auto;
+    padding: 2em;
+    font-size: 16px;
+    line-height: 1.5em;
+    max-width: 960px;
+    
+}
+
+.palette {
+    max-width: 100%;
+}
+
+.logo {
+    max-width: 50%;
+}
+
+header, footer {
+    color: rgb(34, 32, 32);
+    border-radius: 1em;
+    padding: 1.5em;
+    text-align: center;
+}
+
+
+.website {
+    color: rgb(255, 255, 255);
+}
+.website:hover {
+    color: rgb(191, 226, 36);
+}
+
+.header h1 {
+    text-align: center;
+    text-shadow: 0 1px 15px rgb(95, 95, 95);
+}
+
+.first {
+    padding: 1.5em;
+    text-align: justify;
+	margin-bottom: 20px;
+    padding-bottom:20px;
+    margin-top: 20px;
+    border: 2px solid rgb(12, 133, 38);
+    border-radius: 1em;
+    
+}
+ 
+.first:nth-last-child(1){
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom:none;
+}
+.h-example {
+    font-family: 'Anton', sans-serif;
+}
+.p-example {
+    font-family: 'News Cycle', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	box-shadow: 0 1px 15px rgb(95, 95, 95);
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	justify-content: center;
+  }
+  
+  li a:hover {
+	background-color: rgb(15, 88, 15);
+  }
+  
+  .fonts h2 {
+    font-family: 'Dancing Script'
+  }
+  
+  .fonts p {
+    font-family: 'Fauna One'
+  }
+  

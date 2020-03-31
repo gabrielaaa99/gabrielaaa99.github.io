@@ -1,0 +1,39 @@
+@media only screen and (min-width: 37.5em) {
+
+    nav a {
+        display: inline-block;
+    }
+    .section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    nav a {
+        display: inline-block;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .navigation li {
+        display: flex;
+    }
+
+    .container {
+        grid-template-columns: 1fr 1fr;
+      }
+      
+}
+
+@media only screen and (max-width: 37.5em) {
+    .container img:hover {
+        box-shadow: none;
+    }
+
+}

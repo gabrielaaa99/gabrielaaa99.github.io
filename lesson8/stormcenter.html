@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weather Code</title>
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css?family=Anton%7CNews+Cycle&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div id="message" class="show"><b>Saturday = Preston Pancakes in the Park! 9:00 a.m. Friday at the city
+                park.</b></div>
+
+        <div class="heading">
+            <img src="images/sunrise-128.png" alt="image of logo"
+                srcset="images/logo1.png 1x, logo2.png 2x, logo3.png 3x">
+            <div>
+                <h1>The Weather Code</h1>
+                <h3><i>Your dress code, and the weather.</i></h3>
+            </div>
+        </div>
+    </header>
+    <div>
+        <nav>
+            <ul class="navigation">
+                <li id="menu"><a onclick="toggleMenu()">&#9776; <b>Menu bar</b></a></li>
+                <li><a href=""><b>Home</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson5/preston-5.html"><b>Preston</b></a></li>
+                <li><a href=""><b>Soda Springs</b></a></li>
+                <li><a href=""><b>Fish Haven</b></a></li>
+                <li><a href=""><b>Storm Center</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson7/gallery-7.html"><b>Gallery</b></a></li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+    <main>
+        <form method="get" action="thanks.html"> 
+            <label for="name">Name</label><br> <input type="text" name="name" id="name" pattern="[A-Za-9] {1,5}"
+                required>
+        <br>
+        <br>
+         <label for="name">Email</label><br> <input type="email" placeholder="example@example.com" required>
+            <br>
+            <br>           
+                <label for="phone">Phone number:</label> <br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <br>
+            <br>
+
+            <label>Zip code: <br> <input type="text" required></input></label>
+            <br>
+            <br>
+
+            <label>Storm date: <br> <input type="date"></input></label>
+            <br>
+            <br>
+
+            <label>Storm type:<input list="storm-type"></input></label>
+            <datalist id="storm-type">
+                <option value="Flash Flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+            </datalist>
+            <br>
+            <br>
+
+            <label>Storm severity: <input type="range" id="rating" value="5" min="1" max="10" step="1" list="severity" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+				<span id="ratingvalue">5</span></label>
+            <datalist id="severity">
+                <option value="0">
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100">
+            </datalist>
+            <br>
+            <br>
+
+            <label id="region">Storm region:</label>
+            <select id="region">
+                <option disabled="disabled">Select Region ...</option>
+                <option value="preston">Preston</option>
+                <option value="soda-springs">Soda Springs</option>
+                <option value="fish-heaven">Fish Heaven</option>
+            </select>
+            <br>
+            <br>
+            User in-danger level:
+            <div>
+                <input type="radio" id="yes" name="in-danger-level" value="yes">
+                <label for="yes">Yes</label>
+            </div>
+
+            <div>
+                <input type="radio" id="maybe" name="in-danger-level" value="maybe">
+                <label for="maybe">Maybe</label>
+            </div>
+
+            <div>
+                <input type="radio" id="no" name="in-danger-level" value="no">
+                <label for="no">No</label>
+            </div>
+            <br>
+            <input type="submit" value="Submit Info" class="button">
+        </form>
+    </main>
+    <br>
+    <div>
+        <footer>
+            <p> &copy;2020 | Gabriela Avila | Venezuela | <a href="https://www.byui.edu/online" class="website">BYUI
+                    Online Learning</a></p>
+            <p>Current Date<br><span id="currentDate"></span></p>
+            <script src="js/currentDate.js"></script>
+            <script src="js/toggleMenu.js"></script>
+            <script src="js/windchill.js"></script>
+            <script src="js/webfont.js"></script>
+        </footer>
+    </div>
+    <script src="js/rating.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/fridayAlert.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+
+</html>
