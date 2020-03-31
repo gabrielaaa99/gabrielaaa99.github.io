@@ -24,7 +24,8 @@ li a {
 	text-decoration: none;
     justify-content: center;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 200;
   }
   
 li a:hover {
@@ -39,11 +40,31 @@ header {
     overflow: hidden;
 }
 
+.name {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    letter-spacing: 15px;
+}
+
 footer {
     overflow: hidden;
 	background-color: #050517;
     text-align: center;
     color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.website {
+    color: #cf5c36;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.website:hover {
+    color: #e9744d;
 }
 
 .container {
@@ -70,7 +91,7 @@ footer {
 }
 
 .logo img {
-    width: 50%;
+    width: 30%;
     height: auto;
     margin: auto;
     display: flex;
@@ -89,10 +110,19 @@ footer {
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     display: inline-block;
     font-size: 23px;
+    font-weight: 700;
     padding: 1em 2em;
     width: auto;
     text-decoration: none;
     color: white;
     margin-top: 25px;
     font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 8px;
+  }
+
+  .testimonials {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #050517;
+    letter-spacing: 8px;
+    text-align: center;
   }
