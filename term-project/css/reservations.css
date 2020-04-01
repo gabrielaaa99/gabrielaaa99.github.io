@@ -1,0 +1,154 @@
+body {
+    margin: auto;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #050517;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+li {
+	float: left;
+  }
+  
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+    padding: 15px 16px;
+	text-decoration: none;
+    justify-content: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+  
+li a:hover {
+    background-color: #1b1b29;
+    color: white;
+  }
+
+  header {
+    width: 100%;
+	display: flex;
+    justify-content: center; 
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.name {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    letter-spacing: 15px;
+    margin: 15px;
+}
+
+footer {
+    overflow: hidden;
+	background-color: #050517;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.website {
+    color: #cf5c36;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.website:hover {
+    color: #e9744d;
+}
+
+.logo {
+    position: absolute;  
+}
+
+.logo img {
+    width: 30%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.responsive li {
+    display: block;
+}
+
+.active {
+    background-color: white;
+    color: #1b1b29;
+    font-weight: 600;
+}
+
+/* form */
+
+form {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+
+input, select {
+    border-width: 1.5px;
+    border-radius: 5px;
+    color: #1b1b29;
+    padding: 8px;
+}
+
+  /* Medium views */
+  @media only screen and (min-width: 37.5em) {
+    #menu {
+        display: none;
+    }
+
+    nav a {
+        display: inline-block;
+    }
+    
+    .navigation {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .navigation li {
+        display: flex;
+    }
+  }
+
+  /* Large views */
+  @media only screen and (min-width: 60em) {
+    .navigation {  
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    nav a {
+        display: flex;
+        text-align: center;
+        white-space: nowrap;
+    }
+  }

@@ -1,7 +1,7 @@
 WebFont.load({
     google: {
       families: [
-         'Anton' , 'News Cycle'
+         'Open Sans Condensed' , 'Bebas Neue'
       ]
     }
   });

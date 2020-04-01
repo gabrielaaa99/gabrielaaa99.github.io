@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riggins River Adventures | Term Project</title>
+    <title>Riggins River Adventures | Home</title>
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue%7COpen+Sans+Condensed:300&display=swap" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
@@ -12,15 +12,16 @@
 
 <body>
     <header>
-        <picture><img src="images/header-img2.png" alt="header image of a relaxing river."></picture>
+        <a href="https://gabrielaaa99.github.io/term-project/index.html"><img src="images/header-img2.png" alt="header image of a relaxing river."></a>
         <div class="logo">
-            <img src="images/logo.png" alt="image of riggins river adventures logo.">
+            <img src="images/logo.png" alt="free domain image of riggins river adventures logo.">
             <br>
             <h1 class="name">Riggins River Adventures</h1>
         </div>
     </header>
     <nav>
         <ul class="navigation">
+            <li id="menu"><a onclick="toggleMenu()">&#9776;</a></li>
             <li><a href="https://gabrielaaa99.github.io/" class="active"><b>River Guide</b></a></li>
             <li><a href="https://gabrielaaa99.github.io/"><b>Activities</b></a></li>
             <li><a href="https://gabrielaaa99.github.io/"><b>Reservations</b></a></li>
@@ -31,9 +32,17 @@
         <div class="button-wrapper">
             <a class="button" href="https://gabrielaaa99.github.io/term-project/reservations.html">Book now!</a>
           </div>
+          <br>
+          <br>
         <div class="weather">
-            
-
+            <div class="data">
+                <h2>Weather conditions in Riggins, Idaho</h2>
+                
+                <p>Current: <span id="current"></span></p>
+                <p>Temperature: <span id="temperature"></span><b> °F</b></p>
+                <p>Wind Chill: <span id="windchill">ºF</span></p>
+                <p>Humidity: <span id="humidity"></span><b>%</b></p>
+                <p>Wind Speed: <span id="wspeed"></span><b> mph</b></p></div>
         </div>
 
         <h2 class="testimonials">Testimonials</h2> 
@@ -54,10 +63,13 @@
         <p> &copy;2020 | Gabriela Avila | Venezuela | <a href="https://www.byui.edu/online" class="website">BYUI
                 Online Learning</a></p>
         <p>Current Date<br><span id="currentDate"></span></p>
-        <script src="js/currentDate.js"></script>
-        <script src="js/toggleMenu.js"></script>
-        <script src="js/webfont.js"></script>
+        
     </footer>
+
+    <script src="js/currentDate.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/webfont.js"></script>
+    <script src="js/weather.js"></script>
 
 </body>
 

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riggins River Adventures | Reservations</title>
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue%7COpen+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/reservations.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <picture><img src="images/header-img2.png" alt="header image of a relaxing river."></picture>
+        <div class="logo">
+            <img src="images/logo.png" alt="image of riggins river adventures logo.">
+            <br>
+            <h1 class="name">Riggins River Adventures</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="https://gabrielaaa99.github.io/"><b>River Guide</b></a></li>
+            <li><a href="https://gabrielaaa99.github.io/"><b>Activities</b></a></li>
+            <li><a href="https://gabrielaaa99.github.io/" class="active"><b>Reservations</b></a></li>
+            <li><a href="https://gabrielaaa99.github.io/"><b>Contact Us</b></a></li>
+        </ul>
+    </nav>
+    <main>
+        
+    </main>
+    <form method="GET">
+        <label for="name">Full Name</label><br> <input type="text" name="name" id="name" pattern="[A-Za-9] {1,5}"
+                required>
+        <br>
+        <br>
+         <label for="name">Email</label><br> <input type="email" placeholder="example@example.com" required>
+        <br>
+        <br>           
+        <label for="phone">Phone number<br>
+        <input type="tel" name="phone" required></label>
+        <br>
+        <br>
+        <label for="adventure">Adventure Selection</label>
+        <br>
+            <select name="value" id="adventure">
+                <option disabled="disabled">Select an adventure...</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>                
+            </select>
+        <br>
+        <br>
+        <label>Choose the date
+        <br> 
+        <input type="date"></input></label>
+        <br>
+        <br>
+        <div>
+            <input type="submit" value="Submit Info" class="button">
+        </div>
+        
+    </form>
+
+    <footer>
+        <p> &copy;2020 | Gabriela Avila | Venezuela | <a href="https://www.byui.edu/online" class="website">BYUI
+                Online Learning</a></p>
+        <p>Current Date<br><span id="currentDate"></span></p>
+        <script src="js/currentDate.js"></script>
+        <script src="js/toggleMenu.js"></script>
+        <script src="js/webfont.js"></script>
+    </footer>
+
+</body>
+
+</html>
