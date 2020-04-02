@@ -67,47 +67,10 @@ ul {
       font-family: 'Fauna One';
   }
 
-  div.intro {
-      max-width: 650px;
-      background-color: #ffea4f8a;
-      box-shadow: 0 0px 15px rgb(124, 129, 124);
-      padding: 12px;
-      margin-top: 20px;
-  }
-
-  .content {
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
-  }
-
-  .one {
-    margin: 10px auto;
-    position: relative;
-    padding: 0.5em;  
-}
-
-  .herodiv img {
-    width: 70%;
-    height: auto;
-    margin: auto;
-    margin-bottom: 100px;
-}
-
-.info {
-    position: absolute;
-    top: 15px;
-    margin-left: 8px;
-    
-    padding: 2px;
-   
-    font-size: 12px;
-    font-weight: 600;
-}
-
 .button {
   background-color: #1c7c54;
   font-family: 'Fauna One';
+  font-size: 18px;
   font-weight: 600;
   border-radius: 3px;
   border-color: #1c7c54;
@@ -119,15 +82,26 @@ ul {
     padding: 5px;
     width: auto;
     text-decoration: none;
-    color: white;   
+    color: white;    
 }
 
-section img:hover {
-  box-shadow: 0px 0px 15px 2px rgb(108, 109, 105);
+form {
+    font-family: 'Fauna One';
+    margin-top: 20px;
+    background-color: rgb(209, 209, 203);
+    padding: 15px;
 }
 
-main {
-    display: flex;
-    justify-content: space-between;
+input, select {
+    font-family: 'Fauna One';
+    margin: auto;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 5px;
+    border-color: gray;
+    font-weight: 600;
 }
+
+
+
 
