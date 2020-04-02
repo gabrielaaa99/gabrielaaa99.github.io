@@ -91,7 +91,8 @@ ul {
     font-weight: 600;
 }
 
-button {
+
+.button {
   background-color: #1c7c54;
   font-family: 'Fauna One';
   font-weight: 600;
@@ -99,6 +100,13 @@ button {
   border-color: #1c7c54;
   cursor: pointer;
   color: white;
+    border: none;
+    border-radius: 3em;
+    display: inline-block;
+    padding: 5px;
+    width: auto;
+    text-decoration: none;
+    color: white;   
 }
 
 section img:hover {
