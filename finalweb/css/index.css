@@ -108,3 +108,7 @@ ul {
     font-weight: bolder;
     font-family: 'Fauna One';
   }
+
+  footer img {
+    width: 2.5%;
+  }

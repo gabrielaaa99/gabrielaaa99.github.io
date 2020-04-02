@@ -117,3 +117,8 @@ main {
     display: flex;
     justify-content: space-between;
 }
+
+
+footer img {
+  width: 2.5%;
+}
