@@ -21,47 +21,89 @@
     </header>
     <nav>
         <ul class="navigation">
-            <li><a href="https://gabrielaaa99.github.io/"><b>River Guide</b></a></li>
-            <li><a href="https://gabrielaaa99.github.io/"><b>Activities</b></a></li>
-            <li><a href="https://gabrielaaa99.github.io/" class="active"><b>Reservations</b></a></li>
-            <li><a href="https://gabrielaaa99.github.io/"><b>Contact Us</b></a></li>
+            <li><a href="https://gabrielaaa99.github.io/term-project/river.html"><b>River Guide</b></a></li>
+            <li><a href="https://gabrielaaa99.github.io/term-project/activities.html"><b>Activities</b></a></li>
+            <li><a href="https://gabrielaaa99.github.io/term-project/reservations.html" class="active"><b>Reservations</b></a></li>
+            <li><a href="https://gabrielaaa99.github.io/term-project/contact.html"><b>Contact Us</b></a></li>
         </ul>
     </nav>
     <main>
+        <br>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="5">Riggins River Adventures Trips</th>
+                </tr>
+            </thead>
+                <tbody>
+                    <tr>
+                        <td>Trip</td>
+                        <td>Length</td>
+                        <td>Minimum Age</td>
+                        <td>Skill level</td>
+                        <td>Cost</td>
+                    </tr>
+                    <tr>
+                        <td>Kayaking</td>
+                        <td> 3½ – 4½ hours.</td>
+                        <td>12 years old.</td>
+                        <td>No experience needed.</td>
+                        <td>3$ per person.</td>
+                    </tr>
+                    <tr>
+                        <td>Canoeing</td>
+                        <td>1-2 hours</td>
+                        <td>8 years old.</td>
+                        <td>No experience needed.</td>
+                        <td>12$ per person.</td>
+                    </tr>
+                    <tr>
+                        <td>Whitewater Rafting</td>
+                        <td>4 to 6 hours.</td>
+                        <td>8 years old.</td>
+                        <td>No experience needed.</td>
+                        <td>8$ per person.</td>
+                    </tr>
+                </tbody>
+        </table>
+        <br>
+
+        <form method="GET">
+            <br>
+            <label for="name">Full Name</label><br> <input type="text" name="name" id="name" pattern="[A-Za-9] {1,5}"
+                    required>
+            <br>
+            <br>
+             <label for="name">Email</label><br> <input type="email" placeholder="example@example.com" required>
+            <br>
+            <br>           
+            <label for="phone">Phone number<br>
+            <input type="tel" name="phone" required></label>
+            <br>
+            <br>
+            <label for="adventure">Adventure Selection</label>
+            <br>
+                <select name="value" id="adventure">
+                    <option disabled="disabled">Select an adventure...</option>
+                    <option value="kayaking">Kayaking</option>
+                    <option value="canoeing">Canoeing</option>
+                    <option value="waterrafting">Whitewater Rafting</option>                
+                </select>
+            <br>
+            <br>
+            <label>Choose the date
+            <br> 
+            <input type="date"></input></label>
+            <br>
+            <br>
+            <div>
+                <input type="submit" value="Make your reservation" class="button">
+            </div>
+            <br>            
+        </form>
         
     </main>
-    <form method="GET">
-        <label for="name">Full Name</label><br> <input type="text" name="name" id="name" pattern="[A-Za-9] {1,5}"
-                required>
-        <br>
-        <br>
-         <label for="name">Email</label><br> <input type="email" placeholder="example@example.com" required>
-        <br>
-        <br>           
-        <label for="phone">Phone number<br>
-        <input type="tel" name="phone" required></label>
-        <br>
-        <br>
-        <label for="adventure">Adventure Selection</label>
-        <br>
-            <select name="value" id="adventure">
-                <option disabled="disabled">Select an adventure...</option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>                
-            </select>
-        <br>
-        <br>
-        <label>Choose the date
-        <br> 
-        <input type="date"></input></label>
-        <br>
-        <br>
-        <div>
-            <input type="submit" value="Submit Info" class="button">
-        </div>
-        
-    </form>
 
     <footer>
         <p> &copy;2020 | Gabriela Avila | Venezuela | <a href="https://www.byui.edu/online" class="website">BYUI
