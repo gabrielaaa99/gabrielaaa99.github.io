@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riggins River Adventures | Home</title>
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue%7COpen+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue%7COpen+Sans+Condensed:300&display=swap"
+        rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <a href="https://gabrielaaa99.github.io/term-project/index.html"><img src="images/header-img2.png" alt="header image of a relaxing river."></a>
+        <img src="images/header-img2.png" alt="header image of a relaxing river">
         <div class="logo">
             <img src="images/logo.png" alt="free domain image of riggins river adventures logo.">
             <br>
@@ -22,6 +23,7 @@
     <nav>
         <ul class="navigation">
             <li id="menu"><a onclick="toggleMenu()">&#9776;</a></li>
+            <li><a href="https://gabrielaaa99.github.io/term-project/" class="active"><b>Home</b></a></li>
             <li><a href="https://gabrielaaa99.github.io/term-project/river.html"><b>River Guide</b></a></li>
             <li><a href="https://gabrielaaa99.github.io/term-project/activities.html"><b>Activities</b></a></li>
             <li><a href="https://gabrielaaa99.github.io/term-project/reservations.html"><b>Reservations</b></a></li>
@@ -31,30 +33,44 @@
     <main>
         <div class="button-wrapper">
             <a class="button" href="https://gabrielaaa99.github.io/term-project/reservations.html">Book now!</a>
-          </div>
-          <br>
-          <br>
+        </div>
+        <br>
+        <br>
         <div class="weather">
             <div class="data">
                 <h2>Weather conditions in Riggins, Idaho</h2>
-                
+
                 <p>Current: <span id="current"></span></p>
                 <p>Temperature: <span id="temperature"></span><b> °F</b></p>
                 <p>Wind Chill: <span id="windchill">ºF</span></p>
                 <p>Humidity: <span id="humidity"></span><b>%</b></p>
-                <p>Wind Speed: <span id="wspeed"></span><b> mph</b></p></div>
+                <p>Wind Speed: <span id="wspeed"></span><b> mph</b></p>
+            </div>
         </div>
 
-        <h2 class="testimonials">Testimonials</h2> 
-        <div class="container"> 
-         
+        <h2 class="testimonials">Testimonials</h2>
+        <div class="container">
+
             <div class="item item1">
+                <p><i>"I hope you all continue to do what you do because it brings such joy to us."</i>
+                    <br><br><br><br>Aaron M.</p>
             </div>
 
             <div class="item item2">
+
+                <p><i>"Life changing. The most amazing guides lead us. How
+                        lucky am I to have been a part of this experience and I will definitely be back!"</i> 
+                        <br><br><br>Jean S.
+                </p>
             </div>
 
             <div class="item item3">
+                
+                <p><i>"OUTSTANDING! This is how I describe my rafting adventure with Riggins River Adventures. There is no detail missed from
+                        the initial sign-up through the last hour of departure. Everything is fabolous. The guides were
+                        extraordinary, knowledgable, and awesome rafters. I STRONGLY encourage you
+                        to book a trip. What a blast!" 
+                       <br><br>Gordon L.</i></p>
             </div>
         </div>
     </main>
@@ -63,7 +79,7 @@
         <p> &copy;2020 | Gabriela Avila | Venezuela | <a href="https://www.byui.edu/online" class="website">BYUI
                 Online Learning</a></p>
         <p>Current Date<br><span id="currentDate"></span></p>
-        
+
     </footer>
 
     <script src="js/currentDate.js"></script>

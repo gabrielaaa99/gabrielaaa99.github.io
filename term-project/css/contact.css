@@ -367,6 +367,13 @@ footer {
     display: block;
 }
 
+.active {
+    border-bottom: #d3d5d7 5px solid;
+    background-color: #1b1b29;
+}
+
+
+
   /* Small views */
   @media only screen and (min-width: 32.5em) {
     nav a {

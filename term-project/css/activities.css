@@ -118,7 +118,6 @@ footer {
     padding: .5rem;
     font-size: 1rem;
     text-align: center;
-    
     border-radius: 0.15rem; 
     font-size: 20px;
 }
@@ -133,10 +132,10 @@ h2 {
 }
 
 .active {
-    background-color: white;
-    color: #1b1b29;
-    font-weight: 600;
+    border-bottom: #d3d5d7 5px solid;
+    background-color: #1b1b29;
 }
+
 
   /* Small views */
   @media only screen and (min-width: 32.5em) {

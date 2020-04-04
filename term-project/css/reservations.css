@@ -94,9 +94,8 @@ footer {
 }
 
 .active {
-    background-color: white;
-    color: #1b1b29;
-    font-weight: 600;
+    border-bottom: #d3d5d7 5px solid;
+    background-color: #1b1b29;
 }
 
 /* form */
@@ -136,10 +135,17 @@ input, select {
 table {
     margin: auto;
     border-collapse: collapse;
-    background-color: #efc88b;
+    background-color: #cf5c36;
     box-shadow: 2px 8px 15px gray;
     width: fit-content;
+    color: #050517;
 }
+
+.lighter {
+    color: #d3d5d7;
+    background-color: #e9744d;
+}
+
 
 thead th {
     font-family: 'Bebas Neue', cursive;

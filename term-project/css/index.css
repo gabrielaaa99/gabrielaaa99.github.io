@@ -166,6 +166,12 @@ div.weather {
 p {
     font-family: 'Open Sans Condensed', sans-serif;
     color: #050517;
+    font-weight: 700;
+}
+
+.active {
+    border-bottom: #d3d5d7 5px solid;
+    background-color: #1b1b29;
 }
 
 
