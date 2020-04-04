@@ -112,6 +112,10 @@ main h2 {
     font-family: 'Bebas Neue', cursive;
     color: #050517;
 }
+
+div.data {
+    margin: auto;
+}
     
   /* Medium views */
   @media only screen and (min-width: 37.5em) {

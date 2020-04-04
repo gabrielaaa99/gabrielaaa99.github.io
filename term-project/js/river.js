@@ -1,43 +1,36 @@
-const requestURL = 'https://github.com/gabrielaaa99/gabrielaaa99.github.io/blob/master/term-project/guides.json';
+
+
+const requestURL = 'https://gabrielaaa99.github.io/term-project/guides.json';
 
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);
+    console.log(jsonObject);
     const guides = jsonObject['guides'];
-
+    console.log(jsonObject);
+    
     for (let i = 0; i < guides.length; i++ ) {
         
-        if ( guides[i].name == "Meghan Clark"|| guides[i].name == "Richard Perez" ||
-          guides[i].name == "Katheryne Marin") {
+        if ( guides[0].name == "Meghan Clark") {
 
             let div = document.createElement('div');
 
             let card = document.createElement('section');
             card.appendChild(div);
 
-            let photo = document.createElement('img');
-            photo.setAttribute('src', "images/" + guides[i].photo);
-            photo.setAttribute('alt', "River guide photo (fiction)");
-            card.appendChild(photo);
-
             let name = document.createElement('p');
-            name.textContent = guides[i].name;
+            name.textContent = guides["0"].name;
             div.appendChild(name);
 
             let experience = document.createElement('p');
-            experience.textContent = "Years of experience: " + guides[i].experience;
+            experience.textContent = guides["0"].experience;
             div.appendChild(experience);
 
-            let level = document.createElement('p');
-            level.textContent = "Certificate level: " + guides[i].level;
-            div.appendChild(level);
-
-            let bio = document.createElement('p');
-            bio.textContent = "About the guide: " + guides[i].bio;
-            div.appendChild(bio);    
+            let third = document.createElement('p');
+            third.textContent = guides[0].events["2"];
+            div.appendChild(third);
 
             document.querySelector('div.data').appendChild(card);
           }
