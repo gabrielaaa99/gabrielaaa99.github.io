@@ -76,6 +76,11 @@ footer {
     letter-spacing: 1px;
 }
 
+.resources h2 {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 .website {
     color: #cf5c36;
     font-weight: 600;
