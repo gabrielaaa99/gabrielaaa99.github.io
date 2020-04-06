@@ -113,7 +113,23 @@ main h2 {
     color: #050517;
 }
 
-div.data {
+.data p {
+    padding: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+div.data img {
+    width: 100%;
+    border-bottom: 10px solid #cf5c36;
+}
+
+.card {
+    width: 520px;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 1px 1px 4px 1px #ccc;
+    overflow: hidden;
     margin: auto;
 }
     

@@ -29,6 +29,7 @@ fetch(requestURL)
             let third = document.createElement('p');
             third.textContent = towns[i].events["2"];
             div.appendChild(third);
+            
 
             document.querySelector('div.data').appendChild(card);
           }
