@@ -1,12 +1,14 @@
 {
     "guides": [
         {
-            "photo": "meghan.jpg",
             "name": "Meghan Clark",
-            "experience": "8 years",
-            "email": "clarkmeghan@gmail.com",
-            "level": "Certificate in outdoor recreation river guide level 3",
-            "bio": "Meghan is one of our Kayaking experts. She is a full-time guide here at Riggins River Adventures. If you’ve ever been on the river with her, you’ll likely remember her contagious laugh!"
+            "facts": [
+            "photo: meghan.jpg",
+            "experience: 8 years",
+            "email: clarkmeghan@gmail.com",
+            "level: Certificate in outdoor recreation river guide level 3",
+            "bio: Meghan is one of our Kayaking experts. She is a full-time guide here at Riggins River Adventures. If you’ve ever been on the river with her, you’ll likely remember her contagious laugh!"
+            ]
         },
 
         {
