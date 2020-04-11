@@ -1,5 +1,5 @@
 // River Guide one
-const requestURL = 'https://gabrielaaa99.github.io/term-project/guides.json';
+const requestURL = 'https://gabrielaaa99.github.io/final-project/guides.json';
 
 fetch(requestURL)
   .then(function (response) {
