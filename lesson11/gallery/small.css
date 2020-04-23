@@ -1,0 +1,189 @@
+body {
+    margin: auto;
+    font-size: 16px;
+}
+
+main {
+    padding: 1.5em;
+}
+header, footer, nav {
+    color: rgb(0, 0, 0);
+    background-color: #f89797c7;
+    padding: .5em 2%;
+    text-align: center;
+    box-shadow: 0 2px 15px rgb(167, 145, 113);
+}
+
+header.heading h1 {
+    text-shadow: 0 2px 15px #812509;
+    padding: 0.5em;
+    text-align: center;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+nav ul .active {
+    background-color: #f89797c7;
+}
+
+div#message {
+    background-color: yellow;
+    padding: 1em;
+    text-align: center;
+    margin: auto;
+    font-family: 'News Cycle';
+}
+
+p {
+    font-family: 'News Cycle';
+    font-weight: 600;
+}
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+h2 {
+    font-family: 'Anton';
+    border-bottom: solid 1px;
+}
+nav {
+    background-color:#883333c7;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 1em;
+}
+.navigation li {
+    display: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+}
+.responsive li {
+    display: block;
+}
+
+footer, a {
+    font-family: 'News Cycle';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.website {
+    color: rgb(36, 35, 35);
+}
+.website:hover {
+    color: #a0324d;
+}
+
+nav a:hover {
+    background-color: #9c4343c7;    
+}
+.navigation a:checked {
+    color: rgb(135, 177, 20);
+    font-weight: 700;
+}
+
+.navigation li:first-child {
+    display: block;
+    padding: 1em;
+    }
+
+.heading h1 {
+    text-align: center;
+    font-family: 'Anton';
+    color: black;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.heading h3 {
+    font-family: 'News Cycle';
+}
+footer {
+    max-width: 600px;
+    margin: auto;
+}
+
+.container img {
+    width: 70%;
+
+}
+
+.container img:hover {
+    box-shadow: 0 2px 15px rgb(112, 111, 110);
+}
+
+.container.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: auto;
+    margin-top: 0em;
+    justify-content: center;
+    padding: 0.75rem;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.gallery {
+    text-align: left;
+    width: 100%;
+}
+
+main img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+main img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+
+@media only screen and (min-width: 12.5em) {
+    nav a {
+        display: block;
+        text-align: center;
+    }
+    .container {
+        margin: auto;
+        padding: 1em;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .gallery {
+        text-align: center;
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 12.5em) {
+    .container img:hover {
+        box-shadow: none;
+    }
+
+}

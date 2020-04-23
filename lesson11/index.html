@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weather Code</title>
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css?family=Anton%7CNews+Cycle&display=swap" rel="stylesheet">
+    <link href="index/normalize.css" rel="stylesheet">
+    <link href="index/small.css" rel="stylesheet">
+    <link href="index/medium.css" rel="stylesheet">
+    <link href="index/large.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div id="message" class="show"><b>Saturday = Preston Pancakes in the Park! 9:00 a.m. Friday at the city
+                park.</b></div>
+
+        <div class="heading">
+            <img src="images/sunrise-128.png" alt="Logo image of the weather code website"
+                srcset="images/logo1.png 1x, logo2.png 2x, logo3.png 3x">
+            <div>
+                <h1>The Weather Code</h1>
+                <h3><i>Your dress code, and the weather.</i></h3>
+            </div>
+        </div>
+    </header>
+    <div>
+        <nav>
+            <ul class="navigation">
+                <li id="menu"><a onclick="toggleMenu()">&#9776; <b>Menu bar</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/index.html" class="active"><b>Home</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/preston.html"><b>Preston</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/fishhaven.html"><b>Fish Haven</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/sodasprings.html"><b>Soda Springs</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/stormcenter.html"><b>Storm Center</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/gallery.html"><b>Gallery</b></a></li>
+            </ul>
+        </nav>
+    </div>
+    <h2>Welcome!</h2>
+    <div class="town-info">
+        <h2>Town Info</h2>
+        <div class="data"></div>
+    </div>
+
+    <section class="section section-3">
+        <div>
+            <h3>Idaho Weather News</h3>
+            <p class="article">Two routes in the Idaho mountains outside of Boise were closed Sunday evening, in part because of heavy
+                snowfall across the area over the weekend.
+
+                U.S. 95 north of Council was closed shortly before 6 p.m. due to a jackknifed semi truck blocking the
+                roadway, according to the Idaho Transportation Department’s 511 road report. It’s not clear if weather
+                played a factor in the crash, though ITD warns that roads in the area are snow-covered and slippery.
+
+                Idaho 21 was closed in two spots on Sunday. Shortly before 3 p.m., the road was closed between Granite
+                Creek Road and Banks Lowman Road south of Lowman (milepost 48 to 72) due to deep snow. At the same time,
+                12 miles of the road was closed near Grandjean (milepost 93.7 to 105.5) due to avalanche danger. The
+                area is known as “Avalanche Alley.”
+
+                ITD officials said they would reassess the avalanche danger early Monday morning. The closure near
+                Lowman will not be reviewed until Tuesday morning, according to the 511 report.
+                <br>
+                <br>
+                You can read the original article <a
+                    href="https://www.idahostatesman.com/news/weather-news/article239229163.html"
+                    class="story">here.</a>
+            </p>
+
+            <img src="https://images.unsplash.com/photo-1483664852095-d6cc6870702d?ixlib=rb-1.2.1&w=1000&q=80"
+                alt="Descriptive image of Idaho's weather for the homepage's article">
+        </div>
+
+    </section>
+
+    <div>
+        <footer>
+            <p> &copy;2020 | Gabriela Avila | Venezuela | <a href="https://www.byui.edu/online" class="website">BYUI
+                    Online Learning</a></p>
+            <p>Current Date<br><span id="currentDate"></span></p>
+            <script src="js/currentDate.js"></script>
+            <script src="js/toggleMenu.js"></script>
+            <script src="js/windchill.js"></script>
+            <script src="js/webfont.js"></script>
+        </footer>
+    </div>
+    <script src="js/towns.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/fridayAlert.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+
+</html>

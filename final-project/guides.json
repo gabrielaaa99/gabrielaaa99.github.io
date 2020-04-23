@@ -1,0 +1,30 @@
+{
+    "guides": [
+        {
+            "photo": "meghan.jpg",
+            "name": "Meghan Clark",
+            "experience": "8 years",
+            "email": "clarkmeghan@gmail.com",
+            "level": "Certificate in outdoor recreation river guide level 3",
+            "bio": "Meghan is one of our Kayaking experts. She is a full-time guide here at Riggins River Adventures. If you’ve ever been on the river with her, you’ll likely remember her contagious laugh!"
+        },
+
+        {
+            "photo": "richard.jpg",
+            "name": "Richard Perez",
+            "experience": "10 years",
+            "email": "richardperez@gmail.com",
+            "level": "Certificate in outdoor recreation river guide level 4",
+            "bio": "His love for the outdoors started as a child and only grew stronger when he started water rafting through Idaho rivers. With 10 years of experience, Richard loves sharing his knowledge with everyone that comes to Riggins River Adventures (specially those who come for the first time) and helping them to make the most of their experience!"
+        },
+
+        {
+            "photo": "kathe.jpg",
+            "name": "Katheryne Marin",
+            "experience": "10 years",
+            "email": "katherynemarin@gmail.com",
+            "level": "Certificate in outdoor recreation river guide level 4",
+            "bio": "Kathe has an adventurer spirit. She knows the rivers and how to sail them. Having her as your river guide guarantees lots of fun and the best advices!"
+        }
+    ]
+}

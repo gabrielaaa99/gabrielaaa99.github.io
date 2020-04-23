@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>W12 Activity: A Media Card Component</title>
+    <style>
+        img {
+            max-width: 100%;
+        }
+
+        .card {
+            width: 320px;
+            border-radius: 3px 3px 3px 3px;
+            box-shadow: 1px 1px 4px 1px #ccc;
+            background-color:  white;
+            overflow: hidden;
+            margin: auto;
+        }
+
+        .card p {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        button {
+            cursor: pointer;
+            margin: 0;
+            font-family: Arial;
+            font-size: 16px;
+            color: rgb(87, 87, 87);
+            background-color: white;
+        }
+        footer {
+            padding: 12px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        span {
+            color: #888;
+        }
+        .viewButton {
+            float: left;
+            padding: 5px;        
+        }
+        .editButton {
+            float: left;
+            padding: 5px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <article class="card">
+        <img src="https://picsum.photos/320/240" alt="Random image for a media card component">
+        <p>This is a wider card with supporting text below as a natural lead-in to additional content.
+          This content is a little bit longer.
+        </p>
+
+    <footer>
+        <div>
+            <button class="viewButton">View
+            </button>
+            <button class="editButton">Edit
+            </button>
+        </div>
+            
+        <span>9 mins</span>
+    </footer>
+
+    </article>
+  </body>
+</html>

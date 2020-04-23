@@ -1,0 +1,254 @@
+body {
+    margin: auto;
+}
+
+/* Nav */
+nav {
+	margin: 0;
+    background-color: #050517;
+    max-width: 1500px;
+    align-content: center;
+    margin: auto;
+}
+  
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation a:hover {
+    background-color: #1b1b29;
+    color: white;
+  }
+
+.responsive li {
+    display: block;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    color: white;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+}
+
+/* other */
+
+header {
+    width: 100%;
+	display: flex;
+    justify-content: center; 
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.name {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    letter-spacing: 15px;
+    margin: 15px;
+}
+
+footer {
+    overflow: hidden;
+	background-color: #050517;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+  
+li a:hover {
+    background-color: #1b1b29;
+    color: white;
+  }
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+    padding: 15px 16px;
+	text-decoration: none;
+    justify-content: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+  }
+
+  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #050517;
+    display: flex;
+    justify-content: space-evenly;
+  }
+footer p {
+    color: white;
+}
+
+.website {
+    color: #cf5c36;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.website:hover {
+    color: #e9744d;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin: 1.5rem;
+    margin-top: 0em;
+    text-align: center;
+    justify-content: center;
+    padding: 0.75rem;
+    grid-gap: 10px 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.item {
+    box-shadow: 1px 4px 5px 1px #1b1b29;
+    font-size: 1rem;
+    text-align: center;
+    background-color:#d3d5d7;
+    border-radius: 0.15rem; 
+}
+
+.item p {
+    padding: 20px;
+}
+
+.logo {
+    position: absolute;  
+}
+
+.logo img {
+    width: 30%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button-wrapper {
+    display: block;
+    text-align: center;
+  }
+  
+  .button {
+    border: none;
+    border-radius: 3em;
+    background-color: #cf5c36;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: inline-block;
+    font-size: 23px;
+    font-weight: 700;
+    padding: 1em 2em;
+    width: auto;
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 8px;
+  }
+
+  .testimonials {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #050517;
+    letter-spacing: 8px;
+    text-align: center;
+  }
+
+div.weather {
+    background-color: #efc88b;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+.weather h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: #050517;
+    letter-spacing: 1px;
+}
+
+.weather p {
+    font-weight: 600;
+}
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #050517;
+    font-weight: 700;
+}
+
+.active {
+    border-bottom: #d3d5d7 5px solid;
+    background-color: #1b1b29;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 0.15rem;
+}
+
+
+
+  /* Medium views */
+  @media only screen and (min-width: 37.5em) {
+   
+
+    nav a {
+        display: inline-block;
+        margin: auto;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    .navigation {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .navigation li {
+        display: flex;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+  }
+
+  /* Large views */
+  @media only screen and (min-width: 60em) {
+    .navigation {  
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    nav a {
+        display: flex;
+        text-align: center;
+        white-space: nowrap;
+    }
+  }

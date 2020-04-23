@@ -1,0 +1,221 @@
+body {
+    margin: auto;
+    font-size: 16px;
+}
+
+section {
+    max-width: 750px;
+    margin: auto;
+}
+
+header, footer, nav {
+    color: rgb(0, 0, 0);
+    background-color: #f89797c7;
+    padding: .5em 2%;
+    text-align: center;
+    box-shadow: 0 2px 15px rgb(167, 145, 113);
+}
+
+.section-3 h3 {
+    font-family: 'Anton';
+}
+
+.story {
+    color:  #812509;
+    font-weight: 700;
+}
+
+header.heading h1 {
+    text-shadow: 0 2px 15px #812509;
+    padding: 0.5em;
+    text-align: center;
+}
+header figure.logo {
+    float: left;
+    margin: 0 15% 0 0;
+}
+
+nav ul .active {
+    background-color: #f89797c7;
+}
+
+div#message {
+    background-color: yellow;
+    padding: 1em;
+    text-align: center;
+    margin: auto;
+    font-family: 'News Cycle';
+}
+
+p {
+    font-family: 'News Cycle';
+    font-weight: 600;
+}
+
+.article {
+    font-family: 'News Cycle';
+    font-weight: normal;
+}
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+h2 {
+    font-family: 'Anton';
+}
+
+nav {
+    background-color:#883333c7;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 1em;
+}
+.navigation li {
+    display: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+}
+.responsive li {
+    display: block;
+}
+
+footer, a {
+    font-family: 'News Cycle';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.website {
+    color: rgb(36, 35, 35);
+}
+.website:hover {
+    color: #a0324d;
+}
+
+nav a:hover {
+    background-color: #9c4343c7;    
+}
+.navigation a:checked {
+    color: rgb(135, 177, 20);
+    font-weight: 700;
+}
+
+.navigation li:first-child {
+    display: block;
+    padding: 1em;
+    }
+
+.heading h1 {
+    text-align: center;
+    font-family: 'Anton';
+    color: black;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.heading h3 {
+    font-family: 'News Cycle';
+}
+footer {
+    max-width: 600px;
+    margin: auto;
+}
+
+main {
+    background-color: rgba(247, 236, 236, 0.438);
+    max-width: 960px;
+    border-radius: 6px;
+    margin: auto;
+    font-family: 'News Cycle';
+    font-weight: 600;
+}
+input, select {
+    padding: 5px;
+    border-radius: 5px;
+}
+.button {
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+
+.thanks {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'News Cycle';
+}
+
+#ratingvalue {
+	margin: 0 15px;
+}
+
+.town-info {
+    max-width: 960px;
+    margin: auto;
+}
+
+
+div.town-info img {
+    width: 80%;
+      
+}
+
+div.town-info section {
+    margin: 10px;
+    text-align: center;
+    padding: .5em;
+    background-color: rgba(247, 236, 236, 0.438);
+    box-shadow: 0 2px 15px rgb(167, 145, 113);
+}
+
+h2 {
+    margin: 10px;
+}
+
+.section {   
+    padding: 1em;
+	margin-bottom: 2px;
+    margin-top: 20px;
+    border-radius: 0.15em;
+    background-color: rgba(204, 207, 204, 0.664);
+}
+
+.section-3 img {
+    margin: 10px;
+    box-shadow: 0 2px 15px rgb(75, 71, 64);
+    width: 45%;
+}
+
+.section-3 {
+    font-family: 'Anton';
+}
+
+@media only screen and (min-width: 12.5em) {
+    nav a {
+        display: block;
+        text-align: center;
+    }
+    
+}

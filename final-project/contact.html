@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Riggins River Adventures serving all Riggins, ID. This is Gabriela's final project for CIT 230.">
+    <title>Riggins River Adventures | Contact Us</title>
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue%7COpen+Sans+Condensed:300&display=swap"
+        rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <picture><img src="images/header-img2.png" alt="header image of a relaxing river."></picture>
+        <div class="logo">
+            <img src="images/logo.png" alt="image of riggins river adventures logo.">
+            <br>
+            <h1 class="name">Riggins River Adventures</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li id="menu"><a onclick="toggleMenu()">&#9776;</a></li>
+            <li><a href="https://gabrielaaa99.github.io/final-project/"><b>Home</b></a></li>
+            <li><a href="https://gabrielaaa99.github.io/final-project/river.html"><b>River Guides</b></a></li>
+            <li><a href="https://gabrielaaa99.github.io/final-project/activities.html"><b>Activities</b></a></li>
+            <li><a href="https://gabrielaaa99.github.io/final-project/reservations.html"><b>Reservations</b></a></li>
+            <li><a href="https://gabrielaaa99.github.io/final-project/contact.html" class="active"><b>Contact Us</b></a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Contact Us!</h2>
+            <p>1000 S Main St | Riggins, Idaho US. | info@rigginsriveradentures.com
+            </p>
+            <br>
+            <form>
+                <label for="name">Full Name</label><br> 
+                <input type="text" name="name" id="name" pattern="[A-Za-9] {1,5}"
+                    required>
+                    <br>
+                    <br>
+                    <label for="name">Email</label><br> <input type="email" placeholder="example@example.com" required>
+                    <br>
+                    <br>
+                    <label for="subject">Subject</label><br> 
+                    <input type="text" name="subject" id="subject" pattern="[A-Za-9] {1,5}"
+                    required>
+                    <br>
+                    <br>
+                    <label for="message">Send us a message:</label>
+                    <br>
+                    <br>
+                    <textarea id="message" rows="4" cols="50">
+                    </textarea>
+                    <br>
+                    <div>
+                        <input type="submit" value="Submit info" class="button">
+                    </div>
+                    <br>
+            </form>
+            <br>
+            <h2>Follow us!</h2>
+            <div class="media">
+                <a href="https://twitter.com/"><img src="https://image.flaticon.com/icons/svg/1051/1051382.svg" alt="free social media icon of twitter black icon"></a>
+                <a href="https://facebook.com/"><img src="https://image.flaticon.com/icons/svg/1077/1077041.svg" alt="free social media icon of facebook black outlined icon"></a>
+                <a href="https://instagram.com"><img src="https://image.flaticon.com/icons/png/128/2111/2111491.png" alt="free social media icon of instagram black icon"></a>
+            </div>
+            <div class="map">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.575267834578!2d-116.31988428444407!3d45.41790377910047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c5695ed5fae5%3A0x837cd0558ffd520c!2s1000%20S%20Main%20St%2C%20Riggins%2C%20ID%2083549%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sve!4v1585977543630!5m2!1ses-419!2sve"
+                width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p> &copy;2020 | Gabriela Avila | Venezuela | <a href="https://www.byui.edu/online" class="website">BYUI
+                Online Learning</a></p>
+        <p>Current Date<br><span id="currentDate"></span></p>
+
+        <div class="resources">
+            <h2>Helpful resources for you!</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=MbdjTISJ-VM">Raft Away: Beginning River Rafting</a></li>
+                <li><a href="https://www.youtube.com/watch?v=8phAio-D5H4">White Water Rafting Basics and Tips</a></li>
+                <li><a href="https://www.youtube.com/watch?v=3dnVf1TeOfY">Safety Tips for Whitewater Rafting</a></li>
+            </ul>
+    </footer>
+    
+    <script src="js/currentDate.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/webfont.js"></script>
+
+</body>
+
+</html>

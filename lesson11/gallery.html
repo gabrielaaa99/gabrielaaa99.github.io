@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weather Code</title>
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css?family=Anton%7CNews+Cycle&display=swap" rel="stylesheet">
+    <link href="gallery/normalize.css" rel="stylesheet">
+    <link href="gallery/small.css" rel="stylesheet">
+    <link href="gallery/medium.css" rel="stylesheet">
+    <link href="gallery/large.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div id="message" class="show"><b>Saturday = Preston Pancakes in the Park! 9:00 a.m. Friday at the city
+                park.</b></div>
+
+        <div class="heading">
+            <img src="images/sunrise-128.png" alt="Logo image of the weather code website"
+                srcset="images/logo1.png 1x, logo2.png 2x, logo3.png 3x">
+            <div>
+                <h1>The Weather Code</h1>
+                <h3><i>Your dress code, and the weather.</i></h3>
+            </div>
+        </div>
+    </header>
+    
+    <div>
+        <nav>
+            <ul class="navigation">
+                <li id="menu"><a onclick="toggleMenu()">&#9776; <b>Menu bar</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/index.html"><b>Home</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/preston.html"><b>Preston</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/fishhaven.html"><b>Fish Haven</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/sodasprings.html"><b>Soda Springs</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/stormcenter.html"><b>Storm Center</b></a></li>
+                <li><a href="https://gabrielaaa99.github.io/lesson11/gallery.html" class="active"><b>Gallery</b></a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <section class="gallery">
+            <h2>Weather Gallery</h2>
+            <div class="container">
+                <div>
+                    <picture><img src="http://placehold.jp/dbbac1/6c6e70/430x323.png?text=Placeholder"
+                            data-src="images/cloudy1.png" alt="Gallery image: Cloudy day image"></picture>
+                    <p>Cloudy day.</p>
+                </div>
+                <div>
+                    <picture><img src="http://placehold.jp/dbbac1/6c6e70/430x323.png?text=Placeholder"
+                            data-src="images/sunny1.png" alt="Gallery image: Sunny day image"></picture>
+                    <p>Sunny day.</p>
+                </div>
+                <div>
+                    <picture><img src="http://placehold.jp/dbbac1/6c6e70/430x323.png?text=Placeholder"
+                            data-src="images/storm1.png" alt="Gallery image: Storm image"></picture>
+                    <p>Storm in the forest.</p>
+                </div>
+                <div>
+                    <picture><img src="http://placehold.jp/dbbac1/6c6e70/430x323.png?text=Placeholder"
+                            data-src="images/tornado1.png" alt="Tornado image"></picture>
+                    <p>Tornado.</p>
+
+                </div>
+                <div>
+                    <picture><img src="http://placehold.jp/dbbac1/6c6e70/430x323.png?text=Placeholder"
+                            data-src="images/mountains1.png" alt="Gallery image: Snow in the mountains image"></picture>
+                    <p>Snow in the mountains.</p>
+                </div>
+                <div>
+                    <picture><img src="http://placehold.jp/dbbac1/6c6e70/430x323.png?text=Placeholder"
+                            data-src="images/rain1.png" alt="Gallery image: Rainy day image"></picture>
+                    <p>Rainy day.</p>
+
+                </div>
+                <div>
+                    <picture><img src="http://placehold.jp/dbbac1/6c6e70/430x323.png?text=Placeholder"
+                            data-src="images/rainbow1.png" alt="Gallery image: Rainbow image"></picture>
+                    <p>Rainbow.</p>
+                </div>
+                <div>
+                    <picture><img src="http://placehold.jp/dbbac1/6c6e70/430x323.png?text=Placeholder"
+                            data-src="images/snowcity1.png" alt="Gallery image: Snow in the city image"></picture>
+                    <p>Snow in the city.</p>
+                </div>
+                <div>
+                    <picture><img src="http://placehold.jp/dbbac1/6c6e70/430x323.png?text=Placeholder"
+                            data-src="images/windy1.png" alt="Gallery image: Windy weather image"></picture>
+                    <p>Cold windy weather.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <div>
+        <footer>
+            <p> &copy;2020 | Gabriela Avila | Venezuela | <a href="https://www.byui.edu/online" class="website">BYUI
+                    Online Learning</a></p>
+            <p>Current Date<br><span id="currentDate"></span></p>
+            <script src="js/currentDate.js"></script>
+            <script src="js/toggleMenu.js"></script>
+            <script src="js/windchill.js"></script>
+            <script src="js/webfont.js"></script>
+        </footer>
+    </div>
+    <script src="js/gallery.js"></script>
+    <script src="js/fridayAlert.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</body>
+
+</html>
