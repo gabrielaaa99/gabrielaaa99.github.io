@@ -1,0 +1,104 @@
+body {
+  background-color: #faebd7;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+h1, h2 {
+  font-family: "Lora", serif;
+}
+
+main {
+  margin: auto;
+}
+
+header {
+  background-color: #6495ED;
+  padding: 30px;
+  text-align: right;
+}
+header a {
+  color: #faebd7;
+  text-decoration: none;
+}
+header nav {
+  color: #faebd7;
+  text-decoration: none;
+}
+header a:visited {
+  color: #faebd7;
+}
+header a:active {
+  color: #DEB887;
+}
+header a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+li {
+  padding: 6px;
+  list-style: none;
+}
+
+article {
+  margin: 50px;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 2px 2px 6px 0px gray;
+}
+article .post-date {
+  color: gray;
+}
+article a {
+  color: #6495ED;
+  text-decoration: none;
+}
+article a:visited {
+  color: #6495ED;
+}
+article a:active {
+  color: #DEB887;
+}
+article a:hover {
+  text-decoration: underline;
+}
+
+.post-content {
+  background-color: white;
+}
+.post-content h2 a {
+  text-decoration: none;
+  color: black;
+}
+.post-content h2 a:active {
+  color: #DEB887;
+}
+.post-content h2 a:hover {
+  color: #6495ED;
+  text-decoration: underline;
+}
+.post-content li {
+  list-style: none;
+}
+.post-content img {
+  width: 50%;
+}
+.post-content .post-content img {
+  margin: auto;
+}
+.post-content figure {
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=main.css.map */

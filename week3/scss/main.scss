@@ -1,0 +1,148 @@
+// variables for colors
+$blue-color: #6495ED;
+$cream-color: #faebd7;
+$black-color: black;
+$orange-color: #DEB887;
+$white-color: white;
+$gray-color: gray;
+
+//other variables
+$img-with: 50%;
+
+body {
+    background-color: $cream-color;
+    margin: 0px;
+    font-family: sans-serif;
+
+}
+
+h1, h2 {
+    font-family: 'Lora', serif;
+}
+
+main {
+    margin: auto;
+}
+
+header {
+    background-color: $blue-color;
+    padding: 30px;
+    text-align: right;
+    a {
+        color: $cream-color;
+        text-decoration: none;}
+
+    nav {
+        color: $cream-color;
+        text-decoration: none;}
+        
+            a:visited {
+                color: $cream-color;
+            }
+            
+            a:active {
+                color: $orange-color;
+            }
+            
+            a:hover {
+                color: $white-color;
+                text-decoration: underline;
+            }
+}
+
+li {
+    padding: 6px;
+    list-style: none;
+}
+
+article {
+    margin: 50px;
+    padding: 40px;
+    background-color: $white-color;
+    box-shadow: 2px 2px 6px 0px $gray-color;
+
+    .post-date {
+        color: $gray-color;
+    }
+    
+    a {
+        color: $blue-color;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: $blue-color;
+    }
+    
+    a:active {
+        color: $orange-color;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+}
+
+.post-content {
+    background-color: $white-color;
+
+    h2 a {
+        text-decoration: none;
+        color: $black-color;
+    }
+
+    h2 a:active {
+        color: $orange-color;
+    }
+
+    h2 a:hover {
+        color: $blue-color;
+        text-decoration: underline;
+    }
+    
+    li {
+        list-style: none;
+    }
+
+    img {
+        width: $img-with;
+    }
+    
+    .post-content img {
+        margin: auto;
+    }
+    
+    figure {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+@mixin flex-container ($direction-col: column) {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: $direction-col;
+    
+}
+
+div {
+    @include flex-container(column);
+}
+
+// Responsive breakpoints
+$break-small: 32.5em;
+$break-large: 62.5em;
+
+@mixin breakpoint($break) {
+    @if $break == large {
+        @media (min-width: $break-large) { @content; }
+        }
+    @else if $break == small {
+    @media (min-width: $break-small) { @content; }
+    }
+}
