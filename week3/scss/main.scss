@@ -13,7 +13,6 @@ body {
     background-color: $cream-color;
     margin: 0px;
     font-family: sans-serif;
-
 }
 
 h1, h2 {
@@ -120,29 +119,29 @@ article {
 }
 
 
-
 @mixin flex-container ($direction-col: column) {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: $direction-col;
-    
 }
 
 div {
-    @include flex-container(column);
+    @include flex-container(column)
 }
 
-// Responsive breakpoints
+// Responsive breakpoints for small and large views
 $break-small: 32.5em;
-$break-large: 62.5em;
+$break-large: 60em;
 
 @mixin breakpoint($break) {
-    @if $break == large {
+    @if $break == small {
+        @media (min-width: $break-small) { @content; }
+    } @else if $break == large {
         @media (min-width: $break-large) { @content; }
         }
-    @else if $break == small {
-    @media (min-width: $break-small) { @content; }
-    }
+    @else {
+        @media ($break) { @content; }
+        }
 }
