@@ -100,4 +100,14 @@ div {
   -ms-flex-direction: column;
 }
 
+@media (min-width: 32.5em) {
+  div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

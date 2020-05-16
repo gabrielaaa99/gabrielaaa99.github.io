@@ -145,3 +145,9 @@ $break-large: 60em;
         @media ($break) { @content; }
         }
 }
+
+div {     
+    @include breakpoint(small) {
+        @include flex-container(row);
+    }               
+}
