@@ -1,0 +1,74 @@
+/*
+    The primary font variable is the font that adjusts the body text
+
+    Change it to however you want it to be. Don't forget to import
+    the url in this file as well
+*/
+
+// Store the fonts in here
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+$primary-font: 'Open Sans', sans-serif;
+$secondary-font: 'Bangers', cursive;;
+
+/* -------------------------------- 
+
+xTypography 
+
+-------------------------------- */
+
+h1,
+h2 {
+  font-family: $secondary-font;
+  color: $color-2;
+}
+
+h1 {
+  font-size: 3.1rem;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: .15rem;
+  margin: 0 0 0.4em;
+
+  @include MQ(S) {
+    font-size: 3.2rem;
+  }
+
+  @include MQ(M) {
+    font-size: 4rem;
+  }
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  margin: 1em 0;
+
+  @include MQ(S) {
+    font-size: 2.5rem;
+    margin: 1em 0 1.4em;
+  }
+}
+
+section > h2::before {
+  /* number before each section title */
+  color: darken($color-4, 15%);
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: lighten($color-2, 25%);
+
+  a {
+    color: $color-1;
+    text-decoration: underline;
+  }
+
+  @include MQ(S) {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+}

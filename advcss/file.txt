@@ -1,0 +1,93 @@
+
+
+csslint: There are 18 problems in C:\Users\Usuario\Desktop\BYU-Idaho PATHWAY\gabrielaaa99.github.io-1\advcss\test.css.
+
+test.css
+1: error at line 1, col 1
+Unexpected token '{' at line 1, col 1.
+{
+
+test.css
+2: error at line 2, col 3
+Unexpected token '"extends"' at line 2, col 3.
+  "extends": "stylelint-config-standard"
+
+test.css
+3: error at line 2, col 12
+Expected a `FUNCTION` or `IDENT` after colon at line 2, col 12.
+  "extends": "stylelint-config-standard"
+
+test.css
+4: warning at line 5, col 1
+Rule doesn't have all its properties in alphabetical order.
+body {
+
+test.css
+5: warning at line 11, col 1
+Rule doesn't have all its properties in alphabetical order.
+ul {
+
+test.css
+6: warning at line 18, col 5
+Expected (flex-start | flex-end | center | space-between | space-around) but found 'space-evenly'.
+    justify-content: space-evenly;
+
+test.css
+7: warning at line 25, col 3
+Rule doesn't have all its properties in alphabetical order.
+  li a {
+
+test.css
+8: warning at line 46, col 3
+Rule doesn't have all its properties in alphabetical order.
+  footer {
+
+test.css
+9: warning at line 55, col 3
+Rule doesn't have all its properties in alphabetical order.
+  header img {
+
+test.css
+10: warning at line 61, col 3
+Rule doesn't have all its properties in alphabetical order.
+  main {
+
+test.css
+11: warning at line 74, col 3
+Rule doesn't have all its properties in alphabetical order.
+  .herodiv img {
+
+test.css
+12: warning at line 81, col 1
+Rule doesn't have all its properties in alphabetical order.
+.container {
+
+test.css
+13: error at line 83, col 57
+Expected RBRACE at line 83, col 57.
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+test.css
+14: warning at line 84, col 3
+Unknown property 'grid-gap'.
+  grid-gap: 10px 50px;
+
+test.css
+15: warning at line 88, col 1
+Rule doesn't have all its properties in alphabetical order.
+.button {
+
+test.css
+16: warning at line 97, col 3
+Duplicate property 'color' found.
+  color: white;   
+
+test.css
+17: warning at line 108, col 1
+Rule doesn't have all its properties in alphabetical order.
+.item img {
+
+test.css
+18: warning at line 114, col 1
+Rule doesn't have all its properties in alphabetical order.
+.item {

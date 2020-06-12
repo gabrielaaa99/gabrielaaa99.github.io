@@ -1,0 +1,10 @@
+/** container **/
+.page-wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  max-width: 1440px;
+  font-size: 0;
+}
+/** first section **/
