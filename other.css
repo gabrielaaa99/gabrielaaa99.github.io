@@ -226,3 +226,22 @@ a:hover {
     text-decoration: underline;
 }
 }
+
+
+/* nav {
+  color: $cream-color;
+  text-decoration: none;
+
+  nav:visited {
+      color: $cream-color;
+  }
+  
+  nav:active {
+      color: $orange-color;
+  }
+  
+  nav:hover {
+      color: $white-color;
+      text-decoration: underline;
+  }
+}
